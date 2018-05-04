@@ -79,18 +79,21 @@
 
 
 
-<meta name="description" content="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly declared now.  The follow">
+<meta name="description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AS3.0编译错误">
 <meta property="og:url" content="http://yoursite.com/2018/05/04/AS3-0编译错误/index.html">
 <meta property="og:site_name" content="专注移动开发">
-<meta property="og:description" content="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly declared now.  The follow">
+<meta property="og:description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-04T12:00:59.480Z">
+<meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png">
+<meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-2017-12-14-2B81563C221D210290AD4EA44A52620A.jpg">
+<meta property="og:updated_time" content="2018-05-04T12:10:55.465Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AS3.0编译错误">
-<meta name="twitter:description" content="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly declared now.  The follow">
+<meta name="twitter:description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
+<meta name="twitter:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png">
 
 
 
@@ -276,9 +279,30 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2018/05/04/AS3-0编译错误/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2018/05/04/AS3-0编译错误/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
+          
+             <span id="/2018/05/04/AS3-0编译错误/" class="leancloud_visitors" data-flag-title="AS3.0编译错误">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
           
 
           
@@ -300,7 +324,11 @@
       
 
       
-        <h4 id="解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><a href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP" class="headerlink" title="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP"></a>解决方案： <a href="https://shimo.im/docs/YwvkLxcGjSkidCxP" target="_blank" rel="noopener">https://shimo.im/docs/YwvkLxcGjSkidCxP</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
+        <h2 id="BUG1：butterknife编译错误"><a href="#BUG1：butterknife编译错误" class="headerlink" title="BUG1：butterknife编译错误"></a>BUG1：butterknife编译错误</h2><h4 id="解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><a href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP" class="headerlink" title="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP"></a>解决方案： <a href="https://shimo.im/docs/YwvkLxcGjSkidCxP" target="_blank" rel="noopener">https://shimo.im/docs/YwvkLxcGjSkidCxP</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line"></span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line"></span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line"></span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line"></span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
+<p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">javaCompileOptions &#123;</span><br><span class="line">    annotationProcessorOptions &#123;</span><br><span class="line">        includeCompileClasspath true</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="BUG2：添加google仓库"><a href="#BUG2：添加google仓库" class="headerlink" title="BUG2：添加google仓库"></a>BUG2：添加google仓库</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-2017-12-14-2B81563C221D210290AD4EA44A52620A.jpg" alt=""></p>
 
       
     </div>
@@ -398,6 +426,9 @@
           
 
   
+    <div class="comments" id="comments">
+    </div>
+  
 
 
 
@@ -491,7 +522,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><span class="nav-number">1.</span> <span class="nav-text">解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#BUG1：butterknife编译错误"><span class="nav-number">1.</span> <span class="nav-text">BUG1：butterknife编译错误</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><span class="nav-number">1.0.1.</span> <span class="nav-text">解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#BUG2：添加google仓库"><span class="nav-number">2.</span> <span class="nav-text">BUG2：添加google仓库</span></a></li></ol></div>
             
 
           </div>
@@ -673,6 +704,28 @@
 
 
 
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'Knva6XvphWIQJr7zn45UGao4-gzGzoHsz',
+        appKey: 'U4rXb9j2hCztSsjJSRrK0WcS',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
 
 
   
@@ -682,6 +735,113 @@
 
 
   
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("Knva6XvphWIQJr7zn45UGao4-gzGzoHsz", "U4rXb9j2hCztSsjJSRrK0WcS");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
 
   
 
