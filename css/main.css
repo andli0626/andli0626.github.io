@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7a7a6;
+  background: #348e7f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3428,6 +3428,13 @@ p#div-border-top-purple {
 #coding:active {
   color: #999;
   text-decoration: none;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
