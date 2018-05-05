@@ -85,20 +85,20 @@
 
 
 
-<meta name="description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
+<meta name="description" content="BUG1：butterknife编译错误">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AS3.0编译错误">
 <meta property="og:url" content="http://yoursite.com/2018/05/04/AS3-0编译错误/index.html">
 <meta property="og:site_name" content="专注移动开发">
-<meta property="og:description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
+<meta property="og:description" content="BUG1：butterknife编译错误">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-2017-12-14-2B81563C221D210290AD4EA44A52620A.jpg">
-<meta property="og:updated_time" content="2018-05-04T16:12:56.864Z">
+<meta property="og:updated_time" content="2018-05-05T08:15:04.020Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AS3.0编译错误">
-<meta name="twitter:description" content="BUG1：butterknife编译错误解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP12345Error:Execution failed for task &amp;apos;:epointresource:javaPreCompileDebug&amp;apos;.&amp;gt; Annotation processors must be explicitly decla">
+<meta name="twitter:description" content="BUG1：butterknife编译错误">
 <meta name="twitter:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png">
 
 
@@ -426,8 +426,8 @@
       
 
       
-        <h2 id="BUG1：butterknife编译错误"><a href="#BUG1：butterknife编译错误" class="headerlink" title="BUG1：butterknife编译错误"></a>BUG1：butterknife编译错误</h2><h4 id="解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><a href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP" class="headerlink" title="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP"></a>解决方案： <a href="https://shimo.im/docs/YwvkLxcGjSkidCxP" target="_blank" rel="noopener">https://shimo.im/docs/YwvkLxcGjSkidCxP</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
-<a id="more"></a>
+        <h2 id="BUG1：butterknife编译错误"><a href="#BUG1：butterknife编译错误" class="headerlink" title="BUG1：butterknife编译错误"></a>BUG1：butterknife编译错误</h2><a id="more"></a>
+<h4 id="解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><a href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP" class="headerlink" title="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP"></a>解决方案： <a href="https://shimo.im/docs/YwvkLxcGjSkidCxP" target="_blank" rel="noopener">https://shimo.im/docs/YwvkLxcGjSkidCxP</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line"></span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line"></span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line"></span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line"></span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure>
 <p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">javaCompileOptions &#123;</span><br><span class="line">    annotationProcessorOptions &#123;</span><br><span class="line">        includeCompileClasspath true</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -748,7 +748,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">2.0k</span>
+    <span title="Site words total count">2.4k</span>
   
 </div>
 
@@ -773,7 +773,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共2.0k字</span>
+  <span class="post-count">博客全站共2.4k字</span>
 </div>
 
         
