@@ -69,7 +69,7 @@
       <title>Hexo建站攻略</title>
       <link href="/2018/05/04/Hexo%E5%BB%BA%E7%AB%99%E6%94%BB%E7%95%A5/"/>
       <url>/2018/05/04/Hexo%E5%BB%BA%E7%AB%99%E6%94%BB%E7%95%A5/</url>
-      <content type="html"><![CDATA[<h2 id="建站备忘录"><a href="#建站备忘录" class="headerlink" title="建站备忘录"></a>建站备忘录</h2><p><a href="https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/" target="_blank" rel="noopener">https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/</a><br><a id="more"></a></p>]]></content>
+      <content type="html"><![CDATA[<h2 id="建站备忘录"><a href="#建站备忘录" class="headerlink" title="建站备忘录"></a>建站备忘录</h2><p><a href="https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/" target="_blank" rel="noopener">https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/</a><br><a id="more"></a></p><h2 id="站内搜索"><a href="#站内搜索" class="headerlink" title="站内搜索"></a>站内搜索</h2><p><a href="https://blog.csdn.net/linshuhe1/article/details/52424573" target="_blank" rel="noopener">https://blog.csdn.net/linshuhe1/article/details/52424573</a></p>]]></content>
       
       <categories>
           
@@ -129,6 +129,21 @@
     </entry>
     
     <entry>
+      <title>不同的公众号类型具备不同的接口权限</title>
+      <link href="/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/"/>
+      <url>/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/</url>
+      <content type="html"><![CDATA[<h4 id="官方说明"><a href="#官方说明" class="headerlink" title="官方说明"></a>官方说明</h4><p><a href="http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html" target="_blank" rel="noopener">http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html</a></p><a id="more"></a><h2 id="注意：认证与未认证帐号的权限也是不一样的"><a href="#注意：认证与未认证帐号的权限也是不一样的" class="headerlink" title="注意：认证与未认证帐号的权限也是不一样的"></a>注意：认证与未认证帐号的权限也是不一样的</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-670c46fca117cb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-2cab2a5719017ba5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>]]></content>
+      
+      <categories>
+          
+          <category> 微信公众号 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>如何安装maupassant主题</title>
       <link href="/2018/05/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85maupassant%E4%B8%BB%E9%A2%98/"/>
       <url>/2018/05/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85maupassant%E4%B8%BB%E9%A2%98/</url>
@@ -146,21 +161,6 @@
             <tag> Hexo </tag>
             
         </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>不同的公众号类型具备不同的接口权限</title>
-      <link href="/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/"/>
-      <url>/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/</url>
-      <content type="html"><![CDATA[<h4 id="官方说明"><a href="#官方说明" class="headerlink" title="官方说明"></a>官方说明</h4><p><a href="http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html" target="_blank" rel="noopener">http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html</a></p><a id="more"></a><h2 id="注意：认证与未认证帐号的权限也是不一样的"><a href="#注意：认证与未认证帐号的权限也是不一样的" class="headerlink" title="注意：认证与未认证帐号的权限也是不一样的"></a>注意：认证与未认证帐号的权限也是不一样的</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-670c46fca117cb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-2cab2a5719017ba5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>]]></content>
-      
-      <categories>
-          
-          <category> 微信公众号 </category>
-          
-      </categories>
-      
       
     </entry>
     
