@@ -86,6 +86,7 @@
 
 
 <meta name="description" content="官方说明http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html">
+<meta name="keywords" content="Android iOS 微信小程序 jenkins">
 <meta property="og:type" content="article">
 <meta property="og:title" content="不同的公众号类型具备不同的接口权限">
 <meta property="og:url" content="http://yoursite.com/2018/05/03/不同的公众号类型具备不同的接口权限/index.html">
@@ -108,7 +109,7 @@
     root: '/',
     scheme: 'Mist',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -211,12 +212,12 @@
         </li>
       
         
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            关于
+            分类
           </a>
         </li>
       
@@ -231,22 +232,22 @@
         </li>
       
         
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            分类
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -501,8 +502,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/05/03/Hexo主题/" rel="next" title="Hexo主题">
-                <i class="fa fa-chevron-left"></i> Hexo主题
+              <a href="/2018/05/03/如何安装maupassant主题/" rel="next" title="如何安装maupassant主题">
+                <i class="fa fa-chevron-left"></i> 如何安装maupassant主题
               </a>
             
           </div>
@@ -511,8 +512,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/05/03/如何安装maupassant主题/" rel="prev" title="如何安装maupassant主题">
-                如何安装maupassant主题 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/05/03/打分小工具/" rel="prev" title="打分小工具">
+                打分小工具 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -569,6 +570,8 @@
 
   <aside id="sidebar" class="sidebar">
     
+      <div id="sidebar-dimmer"></div>
+    
     <div class="sidebar-inner">
 
       
@@ -593,7 +596,7 @@
                 alt="Jin牌柜机" />
             
               <p class="site-author-name" itemprop="name">Jin牌柜机</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">记录移动开发中的点点滴滴</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -1048,6 +1051,21 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
   
