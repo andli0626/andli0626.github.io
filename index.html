@@ -365,7 +365,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-06-10T18:47:09+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-06-10T18:53:57+08:00">
                 2018-06-10
               </time>
             
@@ -437,7 +437,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  685
+                  732
                 </span>
               
 
@@ -525,6 +525,8 @@
 <h2 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h2><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt=""></p>
 <h4 id="3-通过wx-getSetting查询当前已授权的设置。"><a href="#3-通过wx-getSetting查询当前已授权的设置。" class="headerlink" title="3.通过wx.getSetting查询当前已授权的设置。"></a>3.通过wx.getSetting查询当前已授权的设置。</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject</a></p>
 <h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 button open-type=”getUserInfo”</p>
+<h4 id="2-如果只是显示头像和昵称，可以使用open-data组件"><a href="#2-如果只是显示头像和昵称，可以使用open-data组件" class="headerlink" title="2.如果只是显示头像和昵称，可以使用open-data组件"></a>2.如果只是显示头像和昵称，可以使用open-data组件</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;open-data type=&quot;userAvatarUrl&quot;&gt;&lt;/open-data&gt;</span><br><span class="line">&lt;open-data type=&quot;userGender&quot; lang=&quot;zh_CN&quot;&gt;&lt;/open-data&gt;</span><br></pre></td></tr></table></figure>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>微信登录能力优化</p>
 <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197</a></p>
 <p>微信官方API文档</p>
