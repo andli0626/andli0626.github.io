@@ -101,7 +101,7 @@
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103514.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png">
-<meta property="og:updated_time" content="2018-06-10T10:44:23.592Z">
+<meta property="og:updated_time" content="2018-06-10T10:47:09.892Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序之用户授权的实现">
 <meta name="twitter:description" content="微信小程序之用户授权一.为什么要进行用户授权获取用户的openid，昵称，头像等信息 授权提示框  如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框） 二.相关API及组件说明1.相关APIhttps://developers.weixin.qq.com/miniprogram/dev/api/    方法名 说明     wx.login() 获取临时登录凭证code">
@@ -370,7 +370,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-06-10T18:44:23+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-06-10T18:47:09+08:00">
                 2018-06-10
               </time>
             
@@ -447,7 +447,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  689
+                  685
                 </span>
               
 
@@ -532,7 +532,7 @@
 <p>如果用户拒绝，就不允许下一步的操作，必须授权同意才可以使用。</p>
 <h2 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h2><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt=""></p>
 <h4 id="3-通过wx-getSetting查询当前已授权的设置。"><a href="#3-通过wx-getSetting查询当前已授权的设置。" class="headerlink" title="3.通过wx.getSetting查询当前已授权的设置。"></a>3.通过wx.getSetting查询当前已授权的设置。</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject</a></p>
-<h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 &amp;ltbutton open-type=”getUserInfo”&amp;gt&amp;lt/button&amp;gt</p>
+<h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 button open-type=”getUserInfo”</p>
 <h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>微信登录能力优化</p>
 <p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197</a></p>
 <p>微信官方API文档</p>
