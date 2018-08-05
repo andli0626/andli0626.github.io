@@ -27,7 +27,7 @@
       <title>使用阿里云服务器部署node接口并通过https访问</title>
       <link href="/2018/08/05/%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2node%E6%8E%A5%E5%8F%A3%E5%B9%B6%E9%80%9A%E8%BF%87https%E8%AE%BF%E9%97%AE/"/>
       <url>/2018/08/05/%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2node%E6%8E%A5%E5%8F%A3%E5%B9%B6%E9%80%9A%E8%BF%87https%E8%AE%BF%E9%97%AE/</url>
-      <content type="html"><![CDATA[<h4 id="使用阿里云服务器部署node接口并通过https访问"><a href="#使用阿里云服务器部署node接口并通过https访问" class="headerlink" title="使用阿里云服务器部署node接口并通过https访问"></a>使用阿里云服务器部署node接口并通过https访问</h4><a id="more"></a><h1 id="一-前期准备"><a href="#一-前期准备" class="headerlink" title="一.前期准备"></a>一.前期准备</h1><h4 id="1-一台阿里云服务器"><a href="#1-一台阿里云服务器" class="headerlink" title="1.一台阿里云服务器"></a>1.一台阿里云服务器</h4><h4 id="2-一个已经备案的域名"><a href="#2-一个已经备案的域名" class="headerlink" title="2.一个已经备案的域名"></a>2.一个已经备案的域名</h4><h4 id="3-阿里云服务器开通-80-443端口"><a href="#3-阿里云服务器开通-80-443端口" class="headerlink" title="3.阿里云服务器开通 80/443端口"></a>3.阿里云服务器开通 80/443端口</h4><h4 id="4-购买SSL证书，支持https访问"><a href="#4-购买SSL证书，支持https访问" class="headerlink" title="4.购买SSL证书，支持https访问"></a>4.购买SSL证书，支持https访问</h4><h1 id="二-阿里云服务器如何开通-80-443端口"><a href="#二-阿里云服务器如何开通-80-443端口" class="headerlink" title="二.阿里云服务器如何开通 80/443端口"></a>二.阿里云服务器如何开通 80/443端口</h1><p>登录阿里云服务器后台，添加安全组规则</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020231.jpg" alt=""></p><h1 id="三-购买SSL证书并下载证书"><a href="#三-购买SSL证书并下载证书" class="headerlink" title="三.购买SSL证书并下载证书"></a>三.购买SSL证书并下载证书</h1><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020415.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020425.jpg" alt=""></p><h4 id="免费正式，可以使用1年哟"><a href="#免费正式，可以使用1年哟" class="headerlink" title="免费正式，可以使用1年哟"></a>免费正式，可以使用1年哟</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020447.jpg" alt=""></p><h4 id="下载证书（选择nginx就可以了）"><a href="#下载证书（选择nginx就可以了）" class="headerlink" title="下载证书（选择nginx就可以了）"></a>下载证书（选择nginx就可以了）</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020513.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020548.jpg" alt=""></p><h1 id="四-服务器上安装node环境并部署接口"><a href="#四-服务器上安装node环境并部署接口" class="headerlink" title="四.服务器上安装node环境并部署接口"></a>四.服务器上安装node环境并部署接口</h1><h4 id="下载node：https-nodejs-org-en-download"><a href="#下载node：https-nodejs-org-en-download" class="headerlink" title="下载node：https://nodejs.org/en/download/"></a>下载node：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></h4><h4 id="引入SSL证书"><a href="#引入SSL证书" class="headerlink" title="引入SSL证书"></a>引入SSL证书</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021057.png" alt=""></p><h4 id="启动服务-node-app-即可"><a href="#启动服务-node-app-即可" class="headerlink" title="启动服务 node app 即可"></a>启动服务 node app 即可</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021642.png" alt=""></p><p>参考源码：<a href="https://gitee.com/andli/node_api_test.git" target="_blank" rel="noopener">https://gitee.com/andli/node_api_test.git</a></p>]]></content>
+      <content type="html"><![CDATA[<h4 id="使用阿里云服务器部署node接口并通过https访问"><a href="#使用阿里云服务器部署node接口并通过https访问" class="headerlink" title="使用阿里云服务器部署node接口并通过https访问"></a>使用阿里云服务器部署node接口并通过https访问</h4><a id="more"></a><h1 id="一-前期准备"><a href="#一-前期准备" class="headerlink" title="一.前期准备"></a>一.前期准备</h1><h4 id="1-一台阿里云服务器"><a href="#1-一台阿里云服务器" class="headerlink" title="1.一台阿里云服务器"></a>1.一台阿里云服务器</h4><h4 id="2-一个已经备案的域名"><a href="#2-一个已经备案的域名" class="headerlink" title="2.一个已经备案的域名"></a>2.一个已经备案的域名</h4><h4 id="3-阿里云服务器开通-80-443端口"><a href="#3-阿里云服务器开通-80-443端口" class="headerlink" title="3.阿里云服务器开通 80/443端口"></a>3.阿里云服务器开通 80/443端口</h4><h4 id="4-购买SSL证书，支持https访问"><a href="#4-购买SSL证书，支持https访问" class="headerlink" title="4.购买SSL证书，支持https访问"></a>4.购买SSL证书，支持https访问</h4><h1 id="二-阿里云服务器如何开通-80-443端口"><a href="#二-阿里云服务器如何开通-80-443端口" class="headerlink" title="二.阿里云服务器如何开通 80/443端口"></a>二.阿里云服务器如何开通 80/443端口</h1><p>登录阿里云服务器后台，添加安全组规则</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020231.jpg" alt=""></p><h1 id="三-购买SSL证书并下载证书"><a href="#三-购买SSL证书并下载证书" class="headerlink" title="三.购买SSL证书并下载证书"></a>三.购买SSL证书并下载证书</h1><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020415.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020425.jpg" alt=""></p><h4 id="免费正式，可以使用1年哟"><a href="#免费正式，可以使用1年哟" class="headerlink" title="免费正式，可以使用1年哟"></a>免费正式，可以使用1年哟</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020447.jpg" alt=""></p><h4 id="下载证书（选择nginx就可以了）"><a href="#下载证书（选择nginx就可以了）" class="headerlink" title="下载证书（选择nginx就可以了）"></a>下载证书（选择nginx就可以了）</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020513.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020548.jpg" alt=""></p><h1 id="四-服务器上安装node环境并部署接口"><a href="#四-服务器上安装node环境并部署接口" class="headerlink" title="四.服务器上安装node环境并部署接口"></a>四.服务器上安装node环境并部署接口</h1><h4 id="下载node：https-nodejs-org-en-download"><a href="#下载node：https-nodejs-org-en-download" class="headerlink" title="下载node：https://nodejs.org/en/download/"></a>下载node：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></h4><h4 id="引入SSL证书"><a href="#引入SSL证书" class="headerlink" title="引入SSL证书"></a>引入SSL证书</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021057.png" alt=""></p><h4 id="启动服务-node-app-即可"><a href="#启动服务-node-app-即可" class="headerlink" title="启动服务 node app 即可"></a>启动服务 node app 即可</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021642.png" alt=""></p><p>参考源码：<a href="https://github.com/andli0626/node_api_test.git" target="_blank" rel="noopener">https://github.com/andli0626/node_api_test.git</a></p>]]></content>
       
       <categories>
           
@@ -687,21 +687,6 @@
     </entry>
     
     <entry>
-      <title>不同的公众号类型具备不同的接口权限</title>
-      <link href="/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/"/>
-      <url>/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/</url>
-      <content type="html"><![CDATA[<h4 id="官方说明"><a href="#官方说明" class="headerlink" title="官方说明"></a>官方说明</h4><p><a href="http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html" target="_blank" rel="noopener">http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html</a></p><a id="more"></a><h2 id="注意：认证与未认证帐号的权限也是不一样的"><a href="#注意：认证与未认证帐号的权限也是不一样的" class="headerlink" title="注意：认证与未认证帐号的权限也是不一样的"></a>注意：认证与未认证帐号的权限也是不一样的</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-670c46fca117cb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-2cab2a5719017ba5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>]]></content>
-      
-      <categories>
-          
-          <category> 开发微信 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    <entry>
       <title>如何安装maupassant主题</title>
       <link href="/2018/05/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85maupassant%E4%B8%BB%E9%A2%98/"/>
       <url>/2018/05/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85maupassant%E4%B8%BB%E9%A2%98/</url>
@@ -719,6 +704,21 @@
             <tag> Hexo </tag>
             
         </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>不同的公众号类型具备不同的接口权限</title>
+      <link href="/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/"/>
+      <url>/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/</url>
+      <content type="html"><![CDATA[<h4 id="官方说明"><a href="#官方说明" class="headerlink" title="官方说明"></a>官方说明</h4><p><a href="http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html" target="_blank" rel="noopener">http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html</a></p><a id="more"></a><h2 id="注意：认证与未认证帐号的权限也是不一样的"><a href="#注意：认证与未认证帐号的权限也是不一样的" class="headerlink" title="注意：认证与未认证帐号的权限也是不一样的"></a>注意：认证与未认证帐号的权限也是不一样的</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-670c46fca117cb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-2cab2a5719017ba5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>]]></content>
+      
+      <categories>
+          
+          <category> 开发微信 </category>
+          
+      </categories>
+      
       
     </entry>
     
