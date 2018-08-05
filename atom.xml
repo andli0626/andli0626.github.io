@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-10T12:25:36.197Z</updated>
+  <updated>2018-08-05T02:52:27.881Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,20 +17,422 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>微信js接口安全域名验证配置</title>
+    <link href="http://yoursite.com/2018/08/05/%E5%BE%AE%E4%BF%A1js%E6%8E%A5%E5%8F%A3%E5%AE%89%E5%85%A8%E5%9F%9F%E5%90%8D%E9%AA%8C%E8%AF%81%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/08/05/微信js接口安全域名验证配置/</id>
+    <published>2018-08-05T02:50:06.000Z</published>
+    <updated>2018-08-05T02:52:27.881Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="验证的目的使用微信js-sdk（微信开放的JS接口）"><a href="#验证的目的使用微信js-sdk（微信开放的JS接口）" class="headerlink" title="验证的目的使用微信js sdk（微信开放的JS接口）"></a>验证的目的使用微信js sdk（微信开放的JS接口）</h4><a id="more"></a><h1 id="一-如何配置及要求"><a href="#一-如何配置及要求" class="headerlink" title="一.如何配置及要求"></a>一.如何配置及要求</h1><h4 id="1-一个已经备案的域名"><a href="#1-一个已经备案的域名" class="headerlink" title="1.一个已经备案的域名"></a>1.一个已经备案的域名</h4><p><a href="https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/" target="_blank" rel="noopener">https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/</a></p><h4 id="2-一台服务器"><a href="#2-一台服务器" class="headerlink" title="2.一台服务器"></a>2.一台服务器</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-024410.png" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-024347.jpg" alt=""></p><h1 id="二-node接口部署"><a href="#二-node接口部署" class="headerlink" title="二.node接口部署"></a>二.node接口部署</h1><p>将校验文件放在public目录下即可</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-024818.jpg" alt=""></p><p><a href="https://linyitec.top/MP_verify_yGZ2nWmGcomzSfRT.txt" target="_blank" rel="noopener">https://linyitec.top/MP_verify_yGZ2nWmGcomzSfRT.txt</a></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-024916.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;验证的目的使用微信js-sdk（微信开放的JS接口）&quot;&gt;&lt;a href=&quot;#验证的目的使用微信js-sdk（微信开放的JS接口）&quot; class=&quot;headerlink&quot; title=&quot;验证的目的使用微信js sdk（微信开放的JS接口）&quot;&gt;&lt;/a&gt;验证的目的使用微信js sdk（微信开放的JS接口）&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="微信" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1/"/>
+    
+    
+      <category term="微信js" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用阿里云服务器部署node接口并通过https访问</title>
+    <link href="http://yoursite.com/2018/08/05/%E4%BD%BF%E7%94%A8%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2node%E6%8E%A5%E5%8F%A3%E5%B9%B6%E9%80%9A%E8%BF%87https%E8%AE%BF%E9%97%AE/"/>
+    <id>http://yoursite.com/2018/08/05/使用阿里云服务器部署node接口并通过https访问/</id>
+    <published>2018-08-05T02:18:46.000Z</published>
+    <updated>2018-08-05T02:39:15.194Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="使用阿里云服务器部署node接口并通过https访问"><a href="#使用阿里云服务器部署node接口并通过https访问" class="headerlink" title="使用阿里云服务器部署node接口并通过https访问"></a>使用阿里云服务器部署node接口并通过https访问</h4><a id="more"></a><h1 id="一-前期准备"><a href="#一-前期准备" class="headerlink" title="一.前期准备"></a>一.前期准备</h1><h4 id="1-一台阿里云服务器"><a href="#1-一台阿里云服务器" class="headerlink" title="1.一台阿里云服务器"></a>1.一台阿里云服务器</h4><h4 id="2-一个已经备案的域名"><a href="#2-一个已经备案的域名" class="headerlink" title="2.一个已经备案的域名"></a>2.一个已经备案的域名</h4><h4 id="3-阿里云服务器开通-80-443端口"><a href="#3-阿里云服务器开通-80-443端口" class="headerlink" title="3.阿里云服务器开通 80/443端口"></a>3.阿里云服务器开通 80/443端口</h4><h4 id="4-购买SSL证书，支持https访问"><a href="#4-购买SSL证书，支持https访问" class="headerlink" title="4.购买SSL证书，支持https访问"></a>4.购买SSL证书，支持https访问</h4><h1 id="二-阿里云服务器如何开通-80-443端口"><a href="#二-阿里云服务器如何开通-80-443端口" class="headerlink" title="二.阿里云服务器如何开通 80/443端口"></a>二.阿里云服务器如何开通 80/443端口</h1><p>登录阿里云服务器后台，添加安全组规则</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020231.jpg" alt=""></p><h1 id="三-购买SSL证书并下载证书"><a href="#三-购买SSL证书并下载证书" class="headerlink" title="三.购买SSL证书并下载证书"></a>三.购买SSL证书并下载证书</h1><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020415.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020425.jpg" alt=""></p><h4 id="免费正式，可以使用1年哟"><a href="#免费正式，可以使用1年哟" class="headerlink" title="免费正式，可以使用1年哟"></a>免费正式，可以使用1年哟</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020447.jpg" alt=""></p><h4 id="下载证书（选择nginx就可以了）"><a href="#下载证书（选择nginx就可以了）" class="headerlink" title="下载证书（选择nginx就可以了）"></a>下载证书（选择nginx就可以了）</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020513.jpg" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-020548.jpg" alt=""></p><h1 id="四-服务器上安装node环境并部署接口"><a href="#四-服务器上安装node环境并部署接口" class="headerlink" title="四.服务器上安装node环境并部署接口"></a>四.服务器上安装node环境并部署接口</h1><h4 id="下载node：https-nodejs-org-en-download"><a href="#下载node：https-nodejs-org-en-download" class="headerlink" title="下载node：https://nodejs.org/en/download/"></a>下载node：<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">https://nodejs.org/en/download/</a></h4><h4 id="引入SSL证书"><a href="#引入SSL证书" class="headerlink" title="引入SSL证书"></a>引入SSL证书</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021057.png" alt=""></p><h4 id="启动服务-node-app-即可"><a href="#启动服务-node-app-即可" class="headerlink" title="启动服务 node app 即可"></a>启动服务 node app 即可</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-08-05-021642.png" alt=""></p><p>参考源码：<a href="https://gitee.com/andli/node_api_test.git" target="_blank" rel="noopener">https://gitee.com/andli/node_api_test.git</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;使用阿里云服务器部署node接口并通过https访问&quot;&gt;&lt;a href=&quot;#使用阿里云服务器部署node接口并通过https访问&quot; class=&quot;headerlink&quot; title=&quot;使用阿里云服务器部署node接口并通过https访问&quot;&gt;&lt;/a&gt;使用阿里云服务器部署node接口并通过https访问&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="阿里云服务器" scheme="http://yoursite.com/categories/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac常用命令</title>
+    <link href="http://yoursite.com/2018/07/26/mac%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://yoursite.com/2018/07/26/mac常用命令/</id>
+    <published>2018-07-26T00:36:50.000Z</published>
+    <updated>2018-08-05T02:17:43.310Z</updated>
+    
+    <content type="html"><![CDATA[<p>mac常用命令</p><a id="more"></a><h4 id="检查端口"><a href="#检查端口" class="headerlink" title="检查端口"></a>检查端口</h4><p>命令 lsof -i tcp:port  （port替换成端口号，比如6379）可以查看该端口被什么程序占用，并显示PID，方便KILL</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mac常用命令&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="mac" scheme="http://yoursite.com/categories/mac/"/>
+    
+    
+      <category term="命令行" scheme="http://yoursite.com/tags/%E5%91%BD%E4%BB%A4%E8%A1%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pm2部署node</title>
+    <link href="http://yoursite.com/2018/07/26/pm2%E9%83%A8%E7%BD%B2node/"/>
+    <id>http://yoursite.com/2018/07/26/pm2部署node/</id>
+    <published>2018-07-26T00:33:53.000Z</published>
+    <updated>2018-08-05T02:17:43.310Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="pm2官网-http-pm2-keymetrics-io"><a href="#pm2官网-http-pm2-keymetrics-io" class="headerlink" title="pm2官网 http://pm2.keymetrics.io/"></a>pm2官网 <a href="http://pm2.keymetrics.io/" target="_blank" rel="noopener">http://pm2.keymetrics.io/</a></h4><a id="more"></a><p>安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install pm2 -g</span><br></pre></td></tr></table></figure></p><p>启动<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pm2 start app.js</span><br></pre></td></tr></table></figure></p><p>查看<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pm2 monit</span><br></pre></td></tr></table></figure></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-07-26-001052.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pm2 list</span><br></pre></td></tr></table></figure></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-07-26-001256.png" alt=""><br>控制<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pm2 stop </span><br><span class="line">pm2 restart </span><br><span class="line">pm2 delete</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;pm2官网-http-pm2-keymetrics-io&quot;&gt;&lt;a href=&quot;#pm2官网-http-pm2-keymetrics-io&quot; class=&quot;headerlink&quot; title=&quot;pm2官网 http://pm2.keymetrics.io/&quot;&gt;&lt;/a&gt;pm2官网 &lt;a href=&quot;http://pm2.keymetrics.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://pm2.keymetrics.io/&lt;/a&gt;&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="node" scheme="http://yoursite.com/categories/node/"/>
+    
+    
+      <category term="pm2" scheme="http://yoursite.com/tags/pm2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序之刷新列表</title>
+    <link href="http://yoursite.com/2018/07/23/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E5%88%B7%E6%96%B0%E5%88%97%E8%A1%A8/"/>
+    <id>http://yoursite.com/2018/07/23/微信小程序之刷新列表/</id>
+    <published>2018-07-23T09:03:57.000Z</published>
+    <updated>2018-08-05T02:17:43.311Z</updated>
+    
+    <content type="html"><![CDATA[<p>关键词：CommonJS,Promise,module.exports,链式调用，箭头函数</p><p>页面模板，Flex布局</p><a id="more"></a><h4 id="运行效果"><a href="#运行效果" class="headerlink" title="运行效果"></a>运行效果</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-07-23-QQ20180723-170939-HD.gif" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-07-23-090546.jpg" alt=""></p><h4 id="示例源码"><a href="#示例源码" class="headerlink" title="示例源码"></a>示例源码</h4><p><a href="https://gitee.com/andli/xcx_list_detail.git" target="_blank" rel="noopener">https://gitee.com/andli/xcx_list_detail.git</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关键词：CommonJS,Promise,module.exports,链式调用，箭头函数&lt;/p&gt;
+&lt;p&gt;页面模板，Flex布局&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="微信小程序" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="刷新列表" scheme="http://yoursite.com/tags/%E5%88%B7%E6%96%B0%E5%88%97%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>手动安装atom插件</title>
+    <link href="http://yoursite.com/2018/06/26/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85atom%E6%8F%92%E4%BB%B6/"/>
+    <id>http://yoursite.com/2018/06/26/手动安装atom插件/</id>
+    <published>2018-06-26T09:14:48.000Z</published>
+    <updated>2018-06-27T03:31:27.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>由于atom被墙，只能翻墙安装或者手动安装插件<br><a id="more"></a></p><h1 id="如何进行手动安装"><a href="#如何进行手动安装" class="headerlink" title="如何进行手动安装"></a>如何进行手动安装</h1><h2 id="1-搜索插件，打开插件github地址，下载"><a href="#1-搜索插件，打开插件github地址，下载" class="headerlink" title="1.搜索插件，打开插件github地址，下载"></a>1.搜索插件，打开插件github地址，下载</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-092047.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-092113.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-092247.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-092314.png" alt=""></p><h2 id="2-解压源码，拷贝到atom插件安装目录"><a href="#2-解压源码，拷贝到atom插件安装目录" class="headerlink" title="2.解压源码，拷贝到atom插件安装目录"></a>2.解压源码，拷贝到atom插件安装目录</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/.atom</span><br></pre></td></tr></table></figure><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-092432.png" alt=""></p><h2 id="3-如果部分插件提示报错，需要cd到对应插件目录"><a href="#3-如果部分插件提示报错，需要cd到对应插件目录" class="headerlink" title="3.如果部分插件提示报错，需要cd到对应插件目录"></a>3.如果部分插件提示报错，需要cd到对应插件目录</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install</span><br></pre></td></tr></table></figure><p>安装相关依赖组件</p><h2 id="推荐插件"><a href="#推荐插件" class="headerlink" title="推荐插件"></a>推荐插件</h2><p><a href="https://blog.csdn.net/zsl10/article/details/51822715" target="_blank" rel="noopener">https://blog.csdn.net/zsl10/article/details/51822715</a></p><p><a href="http://www.iqianduan.net/blog/the-useful-plugins-for-atom" target="_blank" rel="noopener">http://www.iqianduan.net/blog/the-useful-plugins-for-atom</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;由于atom被墙，只能翻墙安装或者手动安装插件&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="atom" scheme="http://yoursite.com/tags/atom/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-Object.assign()</title>
+    <link href="http://yoursite.com/2018/06/26/ES6-Object-assign/"/>
+    <id>http://yoursite.com/2018/06/26/ES6-Object-assign/</id>
+    <published>2018-06-26T06:14:04.000Z</published>
+    <updated>2018-06-27T12:39:36.877Z</updated>
+    
+    <content type="html"><![CDATA[<p>Object.assign() 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。<br><a id="more"></a></p><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign" target="_blank" rel="noopener">https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">let object = &#123;&quot;start&quot;:0,&quot;count&quot;:3,&quot;city&quot;:&quot;北京&quot;&#125;;</span><br><span class="line">let object2 = Object.assign(&#123;&#125;,object);</span><br><span class="line">console.log(object2);</span><br></pre></td></tr></table></figure><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-061515.png" alt=""></p><h4 id="Object-assign-方法的用法"><a href="#Object-assign-方法的用法" class="headerlink" title="Object.assign()方法的用法"></a>Object.assign()方法的用法</h4><ol><li>合并多个对象</li><li>克隆对象（浅）</li><li>为对象添加多个方法</li></ol><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-061845.png" alt=""></p><h2 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h2><h4 id="1-输入参数params转化为JSON对象"><a href="#1-输入参数params转化为JSON对象" class="headerlink" title="1.输入参数params转化为JSON对象"></a>1.输入参数params转化为JSON对象</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-054729.png" alt=""></p><h4 id="2-判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）"><a href="#2-判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）" class="headerlink" title="2.判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）"></a>2.判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-054918.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Object.assign() 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="Object.assign" scheme="http://yoursite.com/tags/Object-assign/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序之模块化开发</title>
+    <link href="http://yoursite.com/2018/06/26/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E6%A8%A1%E5%9D%97%E5%8C%96%E5%BC%80%E5%8F%91/"/>
+    <id>http://yoursite.com/2018/06/26/微信小程序之模块化开发/</id>
+    <published>2018-06-26T01:11:57.000Z</published>
+    <updated>2018-06-27T03:31:27.591Z</updated>
+    
+    <content type="html"><![CDATA[<p>关键词：CommonJS,Promise,module.exports,链式调用，箭头函数，缓存设计，豆瓣API，ES6解构复制,ES6字符串模板,ES6函数之默认参数</p><a id="more"></a><p>运行效果（初始化界面）</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-QQ20180626-091809-HD.gif" alt=""></p><h1 id="一-模块化之缓存设计"><a href="#一-模块化之缓存设计" class="headerlink" title="一.模块化之缓存设计"></a>一.模块化之缓存设计</h1><h4 id="判断本地是否有缓存数据且未过期，直接加载。否则，重新通过API请求数据。"><a href="#判断本地是否有缓存数据且未过期，直接加载。否则，重新通过API请求数据。" class="headerlink" title="判断本地是否有缓存数据且未过期，直接加载。否则，重新通过API请求数据。"></a>判断本地是否有缓存数据且未过期，直接加载。否则，重新通过API请求数据。</h4><h2 id="1-缓存写入-读取模块"><a href="#1-缓存写入-读取模块" class="headerlink" title="1.缓存写入/读取模块"></a>1.缓存写入/读取模块</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-012031.png" alt=""></p><p>Promise的使用，module.exports</p><h2 id="2-模块全局引入"><a href="#2-模块全局引入" class="headerlink" title="2.模块全局引入"></a>2.模块全局引入</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-012234.png" alt=""></p><p>初始化为全局变量，通过getApp()直接调用</p><h2 id="3-调用模块方法"><a href="#3-调用模块方法" class="headerlink" title="3.调用模块方法"></a>3.调用模块方法</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-013204.png" alt=""></p><p>解构赋值，链式回调</p><h2 id="4-完整调用过程分析"><a href="#4-完整调用过程分析" class="headerlink" title="4.完整调用过程分析"></a>4.完整调用过程分析</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-013326.png" alt=""></p><h1 id="二-模块化之接口调用"><a href="#二-模块化之接口调用" class="headerlink" title="二.模块化之接口调用"></a>二.模块化之接口调用</h1><h2 id="1-API请求模块"><a href="#1-API请求模块" class="headerlink" title="1.API请求模块"></a>1.API请求模块</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-014438.png" alt=""></p><h2 id="2-豆瓣API模块"><a href="#2-豆瓣API模块" class="headerlink" title="2.豆瓣API模块"></a>2.豆瓣API模块</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-015013.png" alt=""></p><h2 id="3-模块全局引入"><a href="#3-模块全局引入" class="headerlink" title="3.模块全局引入"></a>3.模块全局引入</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-015205.png" alt=""></p><h2 id="4-调用模块方法"><a href="#4-调用模块方法" class="headerlink" title="4.调用模块方法"></a>4.调用模块方法</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-015306.png" alt=""></p><p>参考源码：</p><p><a href="https://gitee.com/andli/xcx_module_demo.git" target="_blank" rel="noopener">https://gitee.com/andli/xcx_module_demo.git</a></p><h1 id="三-对比模块声明"><a href="#三-对比模块声明" class="headerlink" title="三.对比模块声明"></a>三.对比模块声明</h1><h2 id="1-方式一：通过函数名调用"><a href="#1-方式一：通过函数名调用" class="headerlink" title="1.方式一：通过函数名调用"></a>1.方式一：通过函数名调用</h2><h4 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-060302.jpg" alt=""></p><h4 id="调用"><a href="#调用" class="headerlink" title="调用"></a>调用</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-060347.jpg" alt=""></p><h2 id="2-方式二：直接通过文件名来调用"><a href="#2-方式二：直接通过文件名来调用" class="headerlink" title="2.方式二：直接通过文件名来调用"></a>2.方式二：直接通过文件名来调用</h2><h4 id="声明-1"><a href="#声明-1" class="headerlink" title="声明"></a>声明</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-060446.png" alt=""></p><h4 id="调用-1"><a href="#调用-1" class="headerlink" title="调用"></a>调用</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-26-060518.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;关键词：CommonJS,Promise,module.exports,链式调用，箭头函数，缓存设计，豆瓣API，ES6解构复制,ES6字符串模板,ES6函数之默认参数&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="微信小程序" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="模块化" scheme="http://yoursite.com/tags/%E6%A8%A1%E5%9D%97%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-解构赋值</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-解构赋值/</id>
+    <published>2018-06-22T12:02:37.000Z</published>
+    <updated>2018-06-27T12:39:36.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>ES6允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构。</p><h2 id="解构赋值："><a href="#解构赋值：" class="headerlink" title="解构赋值："></a>解构赋值：</h2><h4 id="1-左右两边结构必须一样"><a href="#1-左右两边结构必须一样" class="headerlink" title="1.左右两边结构必须一样"></a>1.左右两边结构必须一样</h4><h4 id="2-右边必须是个东西"><a href="#2-右边必须是个东西" class="headerlink" title="2.右边必须是个东西"></a>2.右边必须是个东西</h4><h4 id="3-声明和赋值不能分开-必须在一句话里完成"><a href="#3-声明和赋值不能分开-必须在一句话里完成" class="headerlink" title="3.声明和赋值不能分开(必须在一句话里完成)"></a>3.声明和赋值不能分开(必须在一句话里完成)</h4><a id="more"></a><h2 id="一-Demo"><a href="#一-Demo" class="headerlink" title="一.Demo"></a>一.Demo</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let [a,b,c]=[12,5,8];</span><br><span class="line">let &#123;a,b,c&#125;=&#123;a: 12, b: 5, c: 8&#125;;</span><br></pre></td></tr></table></figure><h4 id="Demo1-简单使用-解构数组"><a href="#Demo1-简单使用-解构数组" class="headerlink" title="Demo1 简单使用:解构数组"></a>Demo1 简单使用:解构数组</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012422.png" alt=""></p><h4 id="Demo2-解构JSON"><a href="#Demo2-解构JSON" class="headerlink" title="Demo2 解构JSON"></a>Demo2 解构JSON</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012452.png" alt=""></p><h4 id="Demo3-不同「粒度」"><a href="#Demo3-不同「粒度」" class="headerlink" title="Demo3 不同「粒度」"></a>Demo3 不同「粒度」</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012522.png" alt=""></p><h4 id="Demo4-数组"><a href="#Demo4-数组" class="headerlink" title="Demo4 数组"></a>Demo4 数组</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012616.png" alt=""></p><h2 id="二-常见错误"><a href="#二-常见错误" class="headerlink" title="二.常见错误"></a>二.常见错误</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012705.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012716.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-012728.png" alt=""></p><h2 id="三-应用场景"><a href="#三-应用场景" class="headerlink" title="三.应用场景"></a>三.应用场景</h2><p>将后端返回的数据赋值到对应字符串</p><h2 id="结合Object-assign"><a href="#结合Object-assign" class="headerlink" title="结合Object.assign()"></a>结合Object.assign()</h2><h4 id="1-输入参数params转化为JSON对象"><a href="#1-输入参数params转化为JSON对象" class="headerlink" title="1.输入参数params转化为JSON对象"></a>1.输入参数params转化为JSON对象</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-054729.png" alt=""></p><h4 id="2-判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）"><a href="#2-判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）" class="headerlink" title="2.判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）"></a>2.判断搜索字符串是否为空，决定是否新增输入参数（合并字符串）</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-054918.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;ES6允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为解构。&lt;/p&gt;
+&lt;h2 id=&quot;解构赋值：&quot;&gt;&lt;a href=&quot;#解构赋值：&quot; class=&quot;headerlink&quot; title=&quot;解构赋值：&quot;&gt;&lt;/a&gt;解构赋值：&lt;/h2&gt;&lt;h4 id=&quot;1-左右两边结构必须一样&quot;&gt;&lt;a href=&quot;#1-左右两边结构必须一样&quot; class=&quot;headerlink&quot; title=&quot;1.左右两边结构必须一样&quot;&gt;&lt;/a&gt;1.左右两边结构必须一样&lt;/h4&gt;&lt;h4 id=&quot;2-右边必须是个东西&quot;&gt;&lt;a href=&quot;#2-右边必须是个东西&quot; class=&quot;headerlink&quot; title=&quot;2.右边必须是个东西&quot;&gt;&lt;/a&gt;2.右边必须是个东西&lt;/h4&gt;&lt;h4 id=&quot;3-声明和赋值不能分开-必须在一句话里完成&quot;&gt;&lt;a href=&quot;#3-声明和赋值不能分开-必须在一句话里完成&quot; class=&quot;headerlink&quot; title=&quot;3.声明和赋值不能分开(必须在一句话里完成)&quot;&gt;&lt;/a&gt;3.声明和赋值不能分开(必须在一句话里完成)&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="解构赋值" scheme="http://yoursite.com/tags/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-面向对象</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-面向对象/</id>
+    <published>2018-06-22T08:07:18.000Z</published>
+    <updated>2018-06-22T11:31:14.603Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>class关键字、构造器和类分开了</li><li>class里面直接加方法<a id="more"></a></li></ul><h2 id="一-面向对象"><a href="#一-面向对象" class="headerlink" title="一.面向对象"></a>一.面向对象</h2><h4 id="简单使用-class，constructor"><a href="#简单使用-class，constructor" class="headerlink" title="简单使用 class，constructor"></a>简单使用 class，constructor</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-081442.png" alt=""></p><h4 id="继承使用-extend，super"><a href="#继承使用-extend，super" class="headerlink" title="继承使用 extend，super"></a>继承使用 extend，super</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-081902.png" alt=""></p><h2 id="二-面向对象应用-React"><a href="#二-面向对象应用-React" class="headerlink" title="二.面向对象应用-React"></a>二.面向对象应用-React</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;class关键字、构造器和类分开了&lt;/li&gt;
+&lt;li&gt;class里面直接加方法
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="面向对象" scheme="http://yoursite.com/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-字符串模板</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-字符串模板/</id>
+    <published>2018-06-22T07:44:35.000Z</published>
+    <updated>2018-06-27T12:39:36.877Z</updated>
+    
+    <content type="html"><![CDATA[<p>多了2个新方法： startsWith和endsWith</p><p>字符串模板和字符串连接<br><a id="more"></a></p><h2 id="一-startsWith-以啥啥开头"><a href="#一-startsWith-以啥啥开头" class="headerlink" title="一.startsWith 以啥啥开头"></a>一.startsWith 以啥啥开头</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075202.png" alt=""></p><h4 id="判断网址类型"><a href="#判断网址类型" class="headerlink" title="判断网址类型"></a>判断网址类型</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075241.png" alt=""></p><h2 id="二-endsWith-以啥啥结尾"><a href="#二-endsWith-以啥啥结尾" class="headerlink" title="二.endsWith 以啥啥结尾"></a>二.endsWith 以啥啥结尾</h2><h4 id="判断文件类型"><a href="#判断文件类型" class="headerlink" title="判断文件类型"></a>判断文件类型</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075330.png" alt=""></p><h2 id="三-字符串模板"><a href="#三-字符串模板" class="headerlink" title="三.字符串模板"></a>三.字符串模板</h2><h4 id="东西"><a href="#东西" class="headerlink" title="${东西}"></a>${东西}</h4><h4 id="反单引号的使用"><a href="#反单引号的使用" class="headerlink" title="`反单引号的使用"></a>`反单引号的使用</h4><h4 id="可以折行"><a href="#可以折行" class="headerlink" title="可以折行"></a>可以折行</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075451.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075621.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-075952.png" alt=""></p><h4 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-061535.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;多了2个新方法： startsWith和endsWith&lt;/p&gt;
+&lt;p&gt;字符串模板和字符串连接&lt;br&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="字符串" scheme="http://yoursite.com/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-数组</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-%E6%95%B0%E7%BB%84/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-数组/</id>
+    <published>2018-06-22T07:16:35.000Z</published>
+    <updated>2018-06-27T12:39:36.878Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="map（映射），reduce（汇总），filter（过滤器），forEach（循环）"><a href="#map（映射），reduce（汇总），filter（过滤器），forEach（循环）" class="headerlink" title="map（映射），reduce（汇总），filter（过滤器），forEach（循环）"></a>map（映射），reduce（汇总），filter（过滤器），forEach（循环）</h4><a id="more"></a><h2 id="一-map（映射）一个对一个"><a href="#一-map（映射）一个对一个" class="headerlink" title="一.map（映射）一个对一个"></a>一.map（映射）一个对一个</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-072333.png" alt=""></p><h4 id="Demo1-arr-map"><a href="#Demo1-arr-map" class="headerlink" title="Demo1 arr.map()"></a>Demo1 arr.map()</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-072802.png" alt=""></p><p>箭头函数的写法</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-072612.png" alt=""></p><p>应用场景</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-070637.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-071128.png" alt=""></p><p>输出结果</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-071240.png" alt=""></p><h4 id="Demo2-成绩映射"><a href="#Demo2-成绩映射" class="headerlink" title="Demo2 成绩映射"></a>Demo2 成绩映射</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-072910.png" alt=""></p><h2 id="二-reduce-汇总-一堆出来一个"><a href="#二-reduce-汇总-一堆出来一个" class="headerlink" title="二.reduce(汇总) 一堆出来一个"></a>二.reduce(汇总) 一堆出来一个</h2><p>参数一：中间结果</p><p>参数二：遍历</p><p>参数三：数组下标（从1开始）</p><h4 id="Demo1-求和"><a href="#Demo1-求和" class="headerlink" title="Demo1 求和"></a>Demo1 求和</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-073252.png" alt=""></p><h4 id="Demo2-求平均"><a href="#Demo2-求平均" class="headerlink" title="Demo2 求平均"></a>Demo2 求平均</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-073431.png" alt=""></p><h2 id="三-filter-过滤器"><a href="#三-filter-过滤器" class="headerlink" title="三.filter(过滤器)"></a>三.filter(过滤器)</h2><h4 id="Demo1"><a href="#Demo1" class="headerlink" title="Demo1"></a>Demo1</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-073825.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-073926.png" alt=""></p><p></p><p>再次简写，通过箭头函数</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-074007.png" alt=""></p><h4 id="Demo2"><a href="#Demo2" class="headerlink" title="Demo2"></a>Demo2</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-074149.png" alt=""></p><h2 id="四-forEach-循环"><a href="#四-forEach-循环" class="headerlink" title="四.forEach(循环)"></a>四.forEach(循环)</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-074302.png" alt=""></p><h2 id="五-应用场景"><a href="#五-应用场景" class="headerlink" title="五.应用场景"></a>五.应用场景</h2><h4 id="1-将JSON数组格式转化为数组"><a href="#1-将JSON数组格式转化为数组" class="headerlink" title="1.将JSON数组格式转化为数组"></a>1.将JSON数组格式转化为数组</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072613.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072657.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;map（映射），reduce（汇总），filter（过滤器），forEach（循环）&quot;&gt;&lt;a href=&quot;#map（映射），reduce（汇总），filter（过滤器），forEach（循环）&quot; class=&quot;headerlink&quot; title=&quot;map（映射），reduce（汇总），filter（过滤器），forEach（循环）&quot;&gt;&lt;/a&gt;map（映射），reduce（汇总），filter（过滤器），forEach（循环）&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="数组" scheme="http://yoursite.com/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-generator生成器函数</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-generator%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-generator生成器函数/</id>
+    <published>2018-06-22T05:38:47.000Z</published>
+    <updated>2018-06-22T11:31:14.601Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="适合做异步操作"><a href="#适合做异步操作" class="headerlink" title="适合做异步操作"></a>适合做异步操作</h2><h4 id="普通函数——一路到底"><a href="#普通函数——一路到底" class="headerlink" title="普通函数——一路到底"></a>普通函数——一路到底</h4><h4 id="generator函数——中间能停"><a href="#generator函数——中间能停" class="headerlink" title="generator函数——中间能停"></a>generator函数——中间能停</h4><h4 id="yield-暂停"><a href="#yield-暂停" class="headerlink" title="yield 暂停"></a>yield 暂停</h4><h4 id="next-下一步"><a href="#next-下一步" class="headerlink" title="next 下一步"></a>next 下一步</h4><a id="more"></a><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-054015.png" alt=""></p><h4 id="Demo1-简单使用"><a href="#Demo1-简单使用" class="headerlink" title="Demo1 简单使用"></a>Demo1 简单使用</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-054526.png" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">// 生成器函数</span><br><span class="line">    function* show() &#123;</span><br><span class="line">      alert(&apos;a&apos;);</span><br><span class="line"></span><br><span class="line">      yield; // 中间暂停</span><br><span class="line"></span><br><span class="line">      alert(&apos;b&apos;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 普通函数1</span><br><span class="line">    function show_1() &#123;</span><br><span class="line">      alert(&apos;a&apos;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // 普通函数2</span><br><span class="line">    function show_2() &#123;</span><br><span class="line">      alert(&apos;b&apos;);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    let genObj = show(); // 调用生成器函数</span><br><span class="line"></span><br><span class="line">    genObj.next(); // 执行 普通函数1</span><br><span class="line">    genObj.next(); // 执行 普通函数2</span><br></pre></td></tr></table></figure><h4 id="Demo2-yield到底是啥？"><a href="#Demo2-yield到底是啥？" class="headerlink" title="Demo2 yield到底是啥？"></a>Demo2 yield到底是啥？</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-061817.png" alt=""><br>伪代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">function* 炒菜(菜市场买回来的) &#123;</span><br><span class="line">      洗菜 - &gt; 洗好的菜</span><br><span class="line"></span><br><span class="line">      let 干净的菜 = yield 洗好的菜;</span><br><span class="line"></span><br><span class="line">      干净的菜 - &gt; 切 - &gt; 丝</span><br><span class="line"></span><br><span class="line">      let 切好的菜 = yield 丝;</span><br><span class="line"></span><br><span class="line">      切好的菜 - &gt; 炒 - &gt; 熟的菜</span><br><span class="line"></span><br><span class="line">      return 熟的菜;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-062524.png" alt=""></p><h4 id="Demo3-yield可以传参，可以返回"><a href="#Demo3-yield可以传参，可以返回" class="headerlink" title="Demo3 yield可以传参，可以返回"></a>Demo3 yield可以传参，可以返回</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-061328.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-061257.png" alt=""></p><h4 id="Demo4-yield可以返回"><a href="#Demo4-yield可以返回" class="headerlink" title="Demo4 yield可以返回"></a>Demo4 yield可以返回</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-061522.png" alt=""></p><h4 id="Demo5-异步读取数据"><a href="#Demo5-异步读取数据" class="headerlink" title="Demo5 异步读取数据"></a>Demo5 异步读取数据</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-063154.png" alt=""></p><p>对比Promise</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-063703.png" alt=""></p><p>对比一般写法</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-063850.png" alt=""></p><h4 id="Demo6-带逻辑回调处理对比"><a href="#Demo6-带逻辑回调处理对比" class="headerlink" title="Demo6 带逻辑回调处理对比"></a>Demo6 带逻辑回调处理对比</h4><p>伪代码</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-064157.png" alt=""></p><p>Promise——一次读一堆</p><p>generator——逻辑性</p><h4 id="Demo7-在node框架koa中的应用"><a href="#Demo7-在node框架koa中的应用" class="headerlink" title="Demo7 在node框架koa中的应用"></a>Demo7 在node框架koa中的应用</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-065632.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;适合做异步操作&quot;&gt;&lt;a href=&quot;#适合做异步操作&quot; class=&quot;headerlink&quot; title=&quot;适合做异步操作&quot;&gt;&lt;/a&gt;适合做异步操作&lt;/h2&gt;&lt;h4 id=&quot;普通函数——一路到底&quot;&gt;&lt;a href=&quot;#普通函数——一路到底&quot; class=&quot;headerlink&quot; title=&quot;普通函数——一路到底&quot;&gt;&lt;/a&gt;普通函数——一路到底&lt;/h4&gt;&lt;h4 id=&quot;generator函数——中间能停&quot;&gt;&lt;a href=&quot;#generator函数——中间能停&quot; class=&quot;headerlink&quot; title=&quot;generator函数——中间能停&quot;&gt;&lt;/a&gt;generator函数——中间能停&lt;/h4&gt;&lt;h4 id=&quot;yield-暂停&quot;&gt;&lt;a href=&quot;#yield-暂停&quot; class=&quot;headerlink&quot; title=&quot;yield 暂停&quot;&gt;&lt;/a&gt;yield 暂停&lt;/h4&gt;&lt;h4 id=&quot;next-下一步&quot;&gt;&lt;a href=&quot;#next-下一步&quot; class=&quot;headerlink&quot; title=&quot;next 下一步&quot;&gt;&lt;/a&gt;next 下一步&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="generator生成器函数" scheme="http://yoursite.com/tags/generator%E7%94%9F%E6%88%90%E5%99%A8%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-JSON</title>
+    <link href="http://yoursite.com/2018/06/22/ES6-JSON/"/>
+    <id>http://yoursite.com/2018/06/22/ES6-JSON/</id>
+    <published>2018-06-22T03:39:43.000Z</published>
+    <updated>2018-06-27T12:39:36.876Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-034123.png" alt=""></p><a id="more"></a><h2 id="一-Demo"><a href="#一-Demo" class="headerlink" title="一.Demo"></a>一.Demo</h2><h4 id="Demo1-JSON-stringify-字符串化"><a href="#Demo1-JSON-stringify-字符串化" class="headerlink" title="Demo1 JSON.stringify() 字符串化"></a>Demo1 JSON.stringify() 字符串化</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-034209.png" alt=""></p><h4 id="Demo2-JSON-parse-）对象化"><a href="#Demo2-JSON-parse-）对象化" class="headerlink" title="Demo2 JSON.parse(）对象化"></a>Demo2 JSON.parse(）对象化</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-053327.png" alt=""></p><h4 id="Demo3-JSON简写（名字和值一样）"><a href="#Demo3-JSON简写（名字和值一样）" class="headerlink" title="Demo3 JSON简写（名字和值一样）"></a>Demo3 JSON简写（名字和值一样）</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-053409.png" alt=""></p><h4 id="Demo4-JSON简写（-function一块删）"><a href="#Demo4-JSON简写（-function一块删）" class="headerlink" title="Demo4 JSON简写（: function一块删）"></a>Demo4 JSON简写（: function一块删）</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-053437.png" alt=""></p><h2 id="二-注意事项"><a href="#二-注意事项" class="headerlink" title="二.注意事项"></a>二.注意事项</h2><h4 id="1-什么叫JSON的数组格式"><a href="#1-什么叫JSON的数组格式" class="headerlink" title="1.什么叫JSON的数组格式"></a>1.什么叫JSON的数组格式</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072010.png" alt=""></p><p>注意：必须有length</p><p>没有length叫JSON字符串</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072155.png" alt=""></p><h4 id="2-将JSON数组格式转化为数组"><a href="#2-将JSON数组格式转化为数组" class="headerlink" title="2.将JSON数组格式转化为数组"></a>2.将JSON数组格式转化为数组</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072613.png" alt=""></p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-27-072657.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://od7nv5gvk.bkt.clouddn.com/2018-06-22-034123.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="JSON" scheme="http://yoursite.com/tags/JSON/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-Promise</title>
+    <link href="http://yoursite.com/2018/06/21/ES6-Promise/"/>
+    <id>http://yoursite.com/2018/06/21/ES6-Promise/</id>
+    <published>2018-06-21T13:02:37.000Z</published>
+    <updated>2018-06-22T11:31:14.601Z</updated>
+    
+    <content type="html"><![CDATA[<p>异步：操作之间没啥关系，同时进行多个操作</p><p>同步：同时只能做一件事</p><p>异步：代码更复杂</p><p>同步：代码简单</p><a id="more"></a><p>异步伪代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">ajax(&apos;/banners&apos;, function (banner_data)&#123;</span><br><span class="line">  ajax(&apos;/hotItems&apos;, function (hotitem_data)&#123;</span><br><span class="line">    ajax(&apos;/slides&apos;, function (slide_data)&#123;</span><br><span class="line">      ajax(&apos;/slides&apos;, function (slide_data)&#123;</span><br><span class="line"></span><br><span class="line">      &#125;, function ()&#123;</span><br><span class="line">        alert(&apos;读取失败&apos;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;, function ()&#123;</span><br><span class="line">      alert(&apos;读取失败&apos;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;, function ()&#123;</span><br><span class="line">    alert(&apos;读取失败&apos;);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;, function ()&#123;</span><br><span class="line">  alert(&apos;读取失败&apos;);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p><p>同步伪代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">let banner_data=ajax_async(&apos;/banners&apos;);</span><br><span class="line">let hotitem_data=ajax_async(&apos;/hotItems&apos;);</span><br><span class="line">let slide_data=ajax_async(&apos;/slides&apos;);</span><br><span class="line">let banner_data=ajax_async(&apos;/banners&apos;);</span><br></pre></td></tr></table></figure></p><h4 id="Promise——消除异步操作"><a href="#Promise——消除异步操作" class="headerlink" title="Promise——消除异步操作"></a>Promise——消除异步操作</h4><pre><code>用同步一样的方式，来书写异步代码</code></pre><h4 id="Demo1-简单使用"><a href="#Demo1-简单使用" class="headerlink" title="Demo1 简单使用"></a>Demo1 简单使用</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-022826.png" alt=""></p><p>箭头函数改写：</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-031215.png" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">// Promise的简单使用</span><br><span class="line">// 声明</span><br><span class="line">let promise = new Promise(function (resolve, reject) &#123;</span><br><span class="line">  // 异步代码</span><br><span class="line">  $.ajax(&#123;</span><br><span class="line">    url: &apos;http://od7nv5gvk.bkt.clouddn.com/arr.txt&apos;,</span><br><span class="line">    dataType: &apos;json&apos;,</span><br><span class="line">    success(arr) &#123;</span><br><span class="line">      resolve(arr); // resolve——成功了</span><br><span class="line">    &#125;,</span><br><span class="line">    error(err) &#123;</span><br><span class="line">      reject(err); // reject——失败了</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;);</span><br><span class="line">// 调用（then的使用）</span><br><span class="line">promise.then(function (arr) &#123;</span><br><span class="line">  alert(&apos;成功&apos; + arr);</span><br><span class="line">&#125;, function (err) &#123;</span><br><span class="line">  console.log(err);</span><br><span class="line">  alert(&apos;失败了&apos; + err);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">let p = new Promise((resolve, reject) =&gt; &#123;</span><br><span class="line">      $.ajax(&#123;</span><br><span class="line">        url: &quot;http://od7nv5gvk.bkt.clouddn.com/arr.txt&quot;,</span><br><span class="line">        dataType: &quot;json&quot;,</span><br><span class="line">        success(res) &#123;</span><br><span class="line">          resolve(res);</span><br><span class="line">        &#125;,</span><br><span class="line">        error(err) &#123;</span><br><span class="line">          reject(err);</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;)</span><br><span class="line">    p.then(res =&gt; &#123;</span><br><span class="line">      alert(res);</span><br><span class="line">    &#125;).catch(err =&gt; &#123;</span><br><span class="line">      alert(&quot;执行错误!&quot;)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure><h4 id="Demo2-Promise-all-的使用"><a href="#Demo2-Promise-all-的使用" class="headerlink" title="Demo2 Promise.all()的使用"></a>Demo2 Promise.all()的使用</h4><p>需要new两个Promise</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-024319.png" alt=""></p><h4 id="Demo3-通过函数方法，来创建Promise对象，参数是URL"><a href="#Demo3-通过函数方法，来创建Promise对象，参数是URL" class="headerlink" title="Demo3 通过函数方法，来创建Promise对象，参数是URL"></a>Demo3 通过函数方法，来创建Promise对象，参数是URL</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-025913.png" alt=""></p><p>箭头函数改写</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-031943.png" alt=""></p><h4 id="Demo4-高版本的jquery的ajax请求已经支持promise对象"><a href="#Demo4-高版本的jquery的ajax请求已经支持promise对象" class="headerlink" title="Demo4 高版本的jquery的ajax请求已经支持promise对象"></a>Demo4 高版本的jquery的ajax请求已经支持promise对象</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-22-030113.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;异步：操作之间没啥关系，同时进行多个操作&lt;/p&gt;
+&lt;p&gt;同步：同时只能做一件事&lt;/p&gt;
+&lt;p&gt;异步：代码更复杂&lt;/p&gt;
+&lt;p&gt;同步：代码简单&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="Promise" scheme="http://yoursite.com/tags/Promise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-函数Rest参数 ...</title>
+    <link href="http://yoursite.com/2018/06/21/ES6-%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0Rest%20Parameter/"/>
+    <id>http://yoursite.com/2018/06/21/ES6-函数参数Rest Parameter/</id>
+    <published>2018-06-21T12:17:37.000Z</published>
+    <updated>2018-06-27T12:39:36.877Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="函数的参数"><a href="#函数的参数" class="headerlink" title="函数的参数"></a>函数的参数</h1><h4 id="1-参数扩展-数组展开"><a href="#1-参数扩展-数组展开" class="headerlink" title="1.参数扩展/数组展开"></a>1.参数扩展/数组展开</h4><h4 id="2-默认参数"><a href="#2-默认参数" class="headerlink" title="2.默认参数"></a>2.默认参数</h4><a id="more"></a><p>参数扩展：</p><p>1.收集参数</p><p>  function show(a, b, …args){}<br>  *Rest Parameter必须是最后一个</p><p>2.展开数组<br>  …arr    =&gt;    1,2,3<br>  *展开后的效果，跟直接把数组的内容写在这儿一样<br><!--more--></p><h2 id="Demo1-收集剩余参数（…args-必须是最后一个）"><a href="#Demo1-收集剩余参数（…args-必须是最后一个）" class="headerlink" title="Demo1 收集剩余参数（…args 必须是最后一个）"></a>Demo1 收集剩余参数（…args 必须是最后一个）</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-115804.png" alt=""></p><h2 id="Demo2-展开数组（一个个显示数组里面的元素）"><a href="#Demo2-展开数组（一个个显示数组里面的元素）" class="headerlink" title="Demo2 展开数组（一个个显示数组里面的元素）"></a>Demo2 展开数组（一个个显示数组里面的元素）</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-120216.png" alt=""></p><h2 id="Demo3-展开数组（合并数组）"><a href="#Demo3-展开数组（合并数组）" class="headerlink" title="Demo3 展开数组（合并数组）"></a>Demo3 展开数组（合并数组）</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-120306.png" alt=""></p><h2 id="Demo4-展开数组（求和）"><a href="#Demo4-展开数组（求和）" class="headerlink" title="Demo4 展开数组（求和）"></a>Demo4 展开数组（求和）</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-120847.png" alt=""></p><p>箭头函数的写法</p><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-121151.png" alt=""></p><h2 id="Demo5-默认参数"><a href="#Demo5-默认参数" class="headerlink" title="Demo5 默认参数"></a>Demo5 默认参数</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-121727.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;函数的参数&quot;&gt;&lt;a href=&quot;#函数的参数&quot; class=&quot;headerlink&quot; title=&quot;函数的参数&quot;&gt;&lt;/a&gt;函数的参数&lt;/h1&gt;&lt;h4 id=&quot;1-参数扩展-数组展开&quot;&gt;&lt;a href=&quot;#1-参数扩展-数组展开&quot; class=&quot;headerlink&quot; title=&quot;1.参数扩展/数组展开&quot;&gt;&lt;/a&gt;1.参数扩展/数组展开&lt;/h4&gt;&lt;h4 id=&quot;2-默认参数&quot;&gt;&lt;a href=&quot;#2-默认参数&quot; class=&quot;headerlink&quot; title=&quot;2.默认参数&quot;&gt;&lt;/a&gt;2.默认参数&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="函数参数" scheme="http://yoursite.com/tags/%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES6-箭头函数</title>
+    <link href="http://yoursite.com/2018/06/21/ES6-%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2018/06/21/ES6-箭头函数/</id>
+    <published>2018-06-21T10:02:37.000Z</published>
+    <updated>2018-06-22T11:31:14.603Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h1><h4 id="1-如果只有一个参数，-可以省"><a href="#1-如果只有一个参数，-可以省" class="headerlink" title="1.如果只有一个参数，()可以省"></a>1.如果只有一个参数，()可以省</h4><h4 id="2-如果只有一个return，-可以省"><a href="#2-如果只有一个return，-可以省" class="headerlink" title="2.如果只有一个return，{}可以省"></a>2.如果只有一个return，{}可以省</h4><a id="more"></a><h2 id="Demo1-入门级"><a href="#Demo1-入门级" class="headerlink" title="Demo1 入门级"></a>Demo1 入门级</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-100700.png" alt=""></p><h2 id="Demo2-无参数"><a href="#Demo2-无参数" class="headerlink" title="Demo2 无参数"></a>Demo2 无参数</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-111210.png" alt=""></p><h2 id="Demo3-带参数"><a href="#Demo3-带参数" class="headerlink" title="Demo3 带参数"></a>Demo3 带参数</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-112100.png" alt=""></p><h2 id="Demo4-只有一个return，未省略"><a href="#Demo4-只有一个return，未省略" class="headerlink" title="Demo4 只有一个return，未省略{}"></a>Demo4 只有一个return，未省略{}</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-112724.png" alt=""></p><h2 id="Demo5-只有一个return，省略"><a href="#Demo5-只有一个return，省略" class="headerlink" title="Demo5 只有一个return，省略{}"></a>Demo5 只有一个return，省略{}</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-112803.png" alt=""></p><h2 id="Demo6-如果只有一个参数，-可以省"><a href="#Demo6-如果只有一个参数，-可以省" class="headerlink" title="Demo6 如果只有一个参数，()可以省"></a>Demo6 如果只有一个参数，()可以省</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-21-113937.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;箭头函数&quot;&gt;&lt;a href=&quot;#箭头函数&quot; class=&quot;headerlink&quot; title=&quot;箭头函数&quot;&gt;&lt;/a&gt;箭头函数&lt;/h1&gt;&lt;h4 id=&quot;1-如果只有一个参数，-可以省&quot;&gt;&lt;a href=&quot;#1-如果只有一个参数，-可以省&quot; class=&quot;headerlink&quot; title=&quot;1.如果只有一个参数，()可以省&quot;&gt;&lt;/a&gt;1.如果只有一个参数，()可以省&lt;/h4&gt;&lt;h4 id=&quot;2-如果只有一个return，-可以省&quot;&gt;&lt;a href=&quot;#2-如果只有一个return，-可以省&quot; class=&quot;headerlink&quot; title=&quot;2.如果只有一个return，{}可以省&quot;&gt;&lt;/a&gt;2.如果只有一个return，{}可以省&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="ES6" scheme="http://yoursite.com/categories/ES6/"/>
+    
+    
+      <category term="箭头函数" scheme="http://yoursite.com/tags/%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AS编译错误解决办法</title>
+    <link href="http://yoursite.com/2018/06/12/AS%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/06/12/AS编译错误解决办法/</id>
+    <published>2018-06-12T01:04:33.000Z</published>
+    <updated>2018-06-13T13:14:04.165Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Android-Studio-编译错误解决办法"><a href="#Android-Studio-编译错误解决办法" class="headerlink" title="Android Studio 编译错误解决办法"></a>Android Studio 编译错误解决办法</h1><p>Android Studio 3.1.2 : Failed to resolve: runtime</p><p><a href="https://stackoverflow.com/questions/50584437/android-studio-3-1-2-failed-to-resolve-runtime" target="_blank" rel="noopener">https://stackoverflow.com/questions/50584437/android-studio-3-1-2-failed-to-resolve-runtime</a></p><p>Failed to execute aapt</p><p><a href="https://stackoverflow.com/questions/46993773/failed-to-execute-aapt" target="_blank" rel="noopener">https://stackoverflow.com/questions/46993773/failed-to-execute-aapt</a></p><a id="more"></a><h2 id="版本3-1-3"><a href="#版本3-1-3" class="headerlink" title="版本3.1.3"></a>版本3.1.3</h2><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-06-12-005736.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Android-Studio-编译错误解决办法&quot;&gt;&lt;a href=&quot;#Android-Studio-编译错误解决办法&quot; class=&quot;headerlink&quot; title=&quot;Android Studio 编译错误解决办法&quot;&gt;&lt;/a&gt;Android Studio 编译错误解决办法&lt;/h1&gt;&lt;p&gt;Android Studio 3.1.2 : Failed to resolve: runtime&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/50584437/android-studio-3-1-2-failed-to-resolve-runtime&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/questions/50584437/android-studio-3-1-2-failed-to-resolve-runtime&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Failed to execute aapt&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/46993773/failed-to-execute-aapt&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://stackoverflow.com/questions/46993773/failed-to-execute-aapt&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android-Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+    
+  </entry>
+  
+  <entry>
     <title>微信小程序之用户授权的实现</title>
     <link href="http://yoursite.com/2018/06/10/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B9%8B%E7%94%A8%E6%88%B7%E6%8E%88%E6%9D%83%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
     <id>http://yoursite.com/2018/06/10/微信小程序之用户授权的实现/</id>
     <published>2018-06-10T10:43:24.000Z</published>
-    <updated>2018-06-10T12:25:36.197Z</updated>
+    <updated>2018-08-05T03:17:05.363Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="微信小程序之用户授权"><a href="#微信小程序之用户授权" class="headerlink" title="微信小程序之用户授权"></a>微信小程序之用户授权</h1><h2 id="一-为什么要进行用户授权"><a href="#一-为什么要进行用户授权" class="headerlink" title="一.为什么要进行用户授权"></a>一.为什么要进行用户授权</h2><p>获取用户的openid，昵称，头像等信息</p><p>授权提示框</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png" alt=""></p><p>如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）</p><a id="more"></a><h2 id="二-相关API及组件说明"><a href="#二-相关API及组件说明" class="headerlink" title="二.相关API及组件说明"></a>二.相关API及组件说明</h2><h4 id="1-相关API"><a href="#1-相关API" class="headerlink" title="1.相关API"></a>1.相关API</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/</a></p><table><thead><tr><th>方法名</th><th>说明</th></tr></thead><tbody><tr><td>wx.login()</td><td>获取临时登录凭证code</td></tr><tr><td>wx.getUserInfo()</td><td>当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息</td></tr><tr><td>wx.getSetting()</td><td>获取用户的当前设置（只会出现小程序已经向用户请求过的权限）</td></tr><tr><td>wx.openSetting()</td><td>打开授权设置页面（只会出现小程序已经向用户请求过的权限）</td></tr></tbody></table><p>注：wx.openSetting()即将废弃</p><h4 id="2-相关组件"><a href="#2-相关组件" class="headerlink" title="2.相关组件"></a>2.相关组件</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png" alt=""></p><p>用户授权按钮 open-type=’getUserInfo’</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;getUserInfo&apos; bindgetuserinfo=&quot;userInfoHandler&quot; type=&quot;default&quot;&gt;</span><br><span class="line">        用户授权</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure><p>列表样式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;view class=&quot;weui-cell weui-cell_access&quot; hover-class=&quot;weui-cell_active&quot; bindtap=&apos;clickauth&apos; &gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__hd&quot;&gt;</span><br><span class="line">                &lt;image src=&quot;/img/accout_auth.png&quot; style=&quot;width: 25px;height: 25px;margin-right: 5px;margin-top: 5px;&quot; /&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__bd weui-cell_primary&quot;&gt;</span><br><span class="line">                &lt;view&gt;用户授权&lt;/view&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__ft weui-cell__ft_in-access&quot;&gt;&lt;/view&gt;</span><br><span class="line">              &lt;button class=&apos;share-btn&apos; open-type=&apos;getUserInfo&apos;&gt;a&lt;/button&gt;</span><br><span class="line">            &lt;/view&gt;</span><br></pre></td></tr></table></figure><p>打开授权设置页面按钮 open-type=’openSetting’</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;openSetting&apos; type=&quot;default&quot;&gt;</span><br><span class="line">        授权设置</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure><p>列表样式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;view class=&quot;weui-cell weui-cell_access&quot; hover-class=&quot;weui-cell_active&quot;&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__hd&quot;&gt;</span><br><span class="line">                &lt;image src=&quot;/img/accout_set.png&quot; style=&quot;width: 25px;height: 25px;margin-right: 5px;margin-top: 5px;&quot; /&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__bd weui-cell_primary&quot;&gt;</span><br><span class="line">                &lt;view&gt;授权设置&lt;/view&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__ft weui-cell__ft_in-access&quot;&gt;&lt;/view&gt;</span><br><span class="line">              &lt;button class=&apos;share-btn&apos; open-type=&apos;openSetting&apos;&gt;a&lt;/button&gt;</span><br><span class="line">            &lt;/view&gt;</span><br></pre></td></tr></table></figure><h2 id="三-如何去获取昵称头像呢？"><a href="#三-如何去获取昵称头像呢？" class="headerlink" title="三.如何去获取昵称头像呢？"></a>三.如何去获取昵称头像呢？</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101532.png" alt=""></p><p>由于API升级，wx.getUserInfo不在弹出用户授权确认对话框（目前线上版本不受影响，开发版，演示版不支持）</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png" alt=""></p><h4 id="第一步：首页先通过wx-login获取openid，根据openid判断是否是新用户"><a href="#第一步：首页先通过wx-login获取openid，根据openid判断是否是新用户" class="headerlink" title="第一步：首页先通过wx.login获取openid，根据openid判断是否是新用户"></a>第一步：首页先通过wx.login获取openid，根据openid判断是否是新用户</h4><h4 id="第二步：首页放置用户授权按钮，告知用户授权的目的。"><a href="#第二步：首页放置用户授权按钮，告知用户授权的目的。" class="headerlink" title="第二步：首页放置用户授权按钮，告知用户授权的目的。"></a>第二步：首页放置用户授权按钮，告知用户授权的目的。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103514.png" alt=""></p><p>如果用户拒绝，就不允许下一步的操作，必须授权同意才可以使用。</p><h2 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h2><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt=""></p><h4 id="3-通过wx-getSetting查询当前已授权的设置。"><a href="#3-通过wx-getSetting查询当前已授权的设置。" class="headerlink" title="3.通过wx.getSetting查询当前已授权的设置。"></a>3.通过wx.getSetting查询当前已授权的设置。</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">wx.getSetting(&#123;</span><br><span class="line">  success: (res) =&gt; &#123;</span><br><span class="line">    if (res.authSetting[&quot;scope.userInfo&quot;]) &#123;</span><br><span class="line">      console.log(&quot;用户同意授权!&quot;);</span><br><span class="line"></span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      console.log(&quot;用户拒绝授权!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 button open-type=”getUserInfo”</p><h4 id="2-如果只是显示头像和昵称，可以使用open-data组件"><a href="#2-如果只是显示头像和昵称，可以使用open-data组件" class="headerlink" title="2.如果只是显示头像和昵称，可以使用open-data组件"></a>2.如果只是显示头像和昵称，可以使用open-data组件</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;open-data type=&quot;userAvatarUrl&quot;&gt;&lt;/open-data&gt;</span><br><span class="line">&lt;open-data type=&quot;userGender&quot; lang=&quot;zh_CN&quot;&gt;&lt;/open-data&gt;</span><br></pre></td></tr></table></figure><h2 id="参考源码"><a href="#参考源码" class="headerlink" title="参考源码"></a>参考源码</h2><p><a href="https://gitee.com/andli/xcx_useraut.git" target="_blank" rel="noopener">https://gitee.com/andli/xcx_useraut.git</a></p><p>基于『知晓程序』后台</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-QQ20180610-202416-HD.gif" alt=""></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>微信登录能力优化</p><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197</a></p><p>微信官方API文档</p><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/open.html#wxgetuserinfoobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/open.html#wxgetuserinfoobject</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="获取用户openid，昵称，头像等"><a href="#获取用户openid，昵称，头像等" class="headerlink" title="获取用户openid，昵称，头像等"></a>获取用户openid，昵称，头像等</h4><a id="more"></a><h1 id="一-如何获取用户openid"><a href="#一-如何获取用户openid" class="headerlink" title="一.如何获取用户openid"></a>一.如何获取用户openid</h1><h4 id="注意：1-获取用户openid是不需要用户授权同意的"><a href="#注意：1-获取用户openid是不需要用户授权同意的" class="headerlink" title="注意：1.获取用户openid是不需要用户授权同意的"></a><span data-type="color" style="color:#F5222D">注意：1.获取用户openid是不需要用户授权同意的</span></h4><h4 id="注意：2-需要提供登录授权接口，返回openid-（具体请阅读官方接口开发说明）"><a href="#注意：2-需要提供登录授权接口，返回openid-（具体请阅读官方接口开发说明）" class="headerlink" title="注意：2.需要提供登录授权接口，返回openid （具体请阅读官方接口开发说明）"></a><span data-type="color" style="color:#F5222D">注意：2.需要提供登录授权接口，返回openid </span><span data-type="color" style="color:#262626">（具体请阅读官方</span><a href="https://developers.weixin.qq.com/miniprogram/dev/api/api-login.html#wxloginobject" target="_blank" rel="noopener">接口开发说明</a><span data-type="color" style="color:#262626">）</span></h4><h4 id="直接通过wx-login-获取临时code，然后调用后台接口，获取openid"><a href="#直接通过wx-login-获取临时code，然后调用后台接口，获取openid" class="headerlink" title="直接通过wx.login()获取临时code，然后调用后台接口，获取openid"></a>直接通过wx.login()获取临时code，然后调用后台接口，获取openid</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-015052.png" alt="image | left"></p><h4 id="借助postman工具，我们可以模拟下后台接口请求，获取openid"><a href="#借助postman工具，我们可以模拟下后台接口请求，获取openid" class="headerlink" title="借助postman工具，我们可以模拟下后台接口请求，获取openid"></a>借助postman工具，我们可以模拟下后台接口请求，获取openid</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-014920.png" alt="image | center"></p><h4 id="接口文档分析"><a href="#接口文档分析" class="headerlink" title="接口文档分析"></a>接口文档分析</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-021237.jpg" alt="image | left"></p><h1 id="二-如何获取用户基本信息（昵称，头像等）"><a href="#二-如何获取用户基本信息（昵称，头像等）" class="headerlink" title="二.如何获取用户基本信息（昵称，头像等）"></a>二.如何获取用户基本信息（昵称，头像等）</h1><h4 id="注意：必须用户授权同意"><a href="#注意：必须用户授权同意" class="headerlink" title="注意：必须用户授权同意"></a><span data-type="color" style="color:#F5222D">注意：必须用户授权同意</span></h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png" alt="image | center"></p><h2 id="1-相关API"><a href="#1-相关API" class="headerlink" title="1.相关API"></a>1.相关API</h2><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/</a></p><table><thead><tr><th style="text-align:left">方法名</th><th style="text-align:left">说明</th></tr></thead><tbody><tr><td style="text-align:left">wx.getUserInfo()</td><td style="text-align:left">当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息</td></tr><tr><td style="text-align:left">wx.getSetting()</td><td style="text-align:left">获取用户的当前设置（只会出现小程序已经向用户请求过的权限）</td></tr><tr><td style="text-align:left">wx.openSetting()</td><td style="text-align:left">打开授权设置页面（只会出现小程序已经向用户请求过的权限）</td></tr></tbody></table><p><span data-type="color" style="color:#F5222D">注：wx.openSetting()即将废弃</span></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101532.png" alt="image | center"></p><p>由于API升级，wx.getUserInfo不在弹出用户授权确认对话框（目前线上版本不受影响，开发版，演示版不支持）</p><h2 id="2-相关组件"><a href="#2-相关组件" class="headerlink" title="2.相关组件"></a>2.相关组件</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png" alt="image | left"></p><p>用户授权按钮 open-type=’getUserInfo’</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;getUserInfo&apos; bindgetuserinfo=&quot;userInfoHandler&quot; type=&quot;default&quot;&gt;</span><br><span class="line">        用户授权</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure><p>列表样式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;view class=&quot;weui-cell weui-cell_access&quot; hover-class=&quot;weui-cell_active&quot; bindtap=&apos;clickauth&apos; &gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__hd&quot;&gt;</span><br><span class="line">                &lt;image src=&quot;/img/accout_auth.png&quot; style=&quot;width: 25px;height: 25px;margin-right: 5px;margin-top: 5px;&quot; /&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__bd weui-cell_primary&quot;&gt;</span><br><span class="line">                &lt;view&gt;用户授权&lt;/view&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__ft weui-cell__ft_in-access&quot;&gt;&lt;/view&gt;</span><br><span class="line">              &lt;button class=&apos;share-btn&apos; open-type=&apos;getUserInfo&apos;&gt;a&lt;/button&gt;</span><br><span class="line">            &lt;/view&gt;</span><br></pre></td></tr></table></figure><p>打开授权设置页面按钮 open-type=’openSetting’</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;openSetting&apos; type=&quot;default&quot;&gt;</span><br><span class="line">        授权设置</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure><p>列表样式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;view class=&quot;weui-cell weui-cell_access&quot; hover-class=&quot;weui-cell_active&quot;&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__hd&quot;&gt;</span><br><span class="line">                &lt;image src=&quot;/img/accout_set.png&quot; style=&quot;width: 25px;height: 25px;margin-right: 5px;margin-top: 5px;&quot; /&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__bd weui-cell_primary&quot;&gt;</span><br><span class="line">                &lt;view&gt;授权设置&lt;/view&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__ft weui-cell__ft_in-access&quot;&gt;&lt;/view&gt;</span><br><span class="line">              &lt;button class=&apos;share-btn&apos; open-type=&apos;openSetting&apos;&gt;a&lt;/button&gt;</span><br><span class="line">            &lt;/view&gt;</span><br></pre></td></tr></table></figure><h2 id="3-参考流程"><a href="#3-参考流程" class="headerlink" title="3.参考流程"></a>3.参考流程</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png" alt="image | center"></p><h4 id="第一步：首页先通过wx-login获取code，根据临时code获取openid，根据openid判断是否是新用户"><a href="#第一步：首页先通过wx-login获取code，根据临时code获取openid，根据openid判断是否是新用户" class="headerlink" title="第一步：首页先通过wx.login获取code，根据临时code获取openid，根据openid判断是否是新用户"></a>第一步：首页先通过wx.login获取code，根据临时code获取openid，根据openid判断是否是新用户</h4><h4 id="第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）"><a href="#第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）" class="headerlink" title="第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）"></a>第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）</h4><h4 id="第三步：通过wx-getUserInfo-获取用户头像，昵称等基本信息"><a href="#第三步：通过wx-getUserInfo-获取用户头像，昵称等基本信息" class="headerlink" title="第三步：通过wx.getUserInfo()获取用户头像，昵称等基本信息"></a>第三步：通过wx.getUserInfo()获取用户头像，昵称等基本信息</h4><h4 id="实现方案参考"><a href="#实现方案参考" class="headerlink" title="实现方案参考"></a>实现方案参考</h4><div data-type="alignment" data-value="center" style="text-align:center"><br>  <div data-type="p"><br>    <div data-type="image" data-display="block" data-align="center" data-src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-2018-07-20-QQ20180720-111434-HD.gif" data-width=""><br>      <img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-2018-07-20-QQ20180720-111434-HD.gif" width=""><br>    </div><br>  </div><br></div><h1 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h1><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt="image | left"></p><h4 id="3-通过wx-getSetting查询当前已授权的设置。"><a href="#3-通过wx-getSetting查询当前已授权的设置。" class="headerlink" title="3.通过wx.getSetting查询当前已授权的设置。"></a>3.通过wx.getSetting查询当前已授权的设置。</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject</a></p><h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 button open-type=”getUserInfo”</p><h4 id="2-如果只是显示头像和昵称，可以使用open-data组件"><a href="#2-如果只是显示头像和昵称，可以使用open-data组件" class="headerlink" title="2.如果只是显示头像和昵称，可以使用open-data组件"></a>2.如果只是显示头像和昵称，可以使用open-data组件</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;open-data type=&quot;userAvatarUrl&quot;&gt;&lt;/open-data&gt;</span><br><span class="line">&lt;open-data type=&quot;userGender&quot; lang=&quot;zh_CN&quot;&gt;&lt;/open-data&gt;</span><br></pre></td></tr></table></figure><h2 id="参考源码"><a href="#参考源码" class="headerlink" title="参考源码"></a>参考源码</h2><p><a href="https://gitee.com/andli/xcx_useraut.git" target="_blank" rel="noopener">https://gitee.com/andli/xcx_useraut.git</a></p><p>基于『知晓程序』后台</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-QQ20180610-202416-HD.gif" alt=""></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p>微信登录能力优化</p><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197" target="_blank" rel="noopener">https://mp.weixin.qq.com/s?__biz=MjM5NDAxMDg4MA==&amp;mid=2650959412&amp;idx=1&amp;sn=9a140ac9622845b4c362ab686a877197</a></p><p>微信官方API文档</p><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/open.html#wxgetuserinfoobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/open.html#wxgetuserinfoobject</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;微信小程序之用户授权&quot;&gt;&lt;a href=&quot;#微信小程序之用户授权&quot; class=&quot;headerlink&quot; title=&quot;微信小程序之用户授权&quot;&gt;&lt;/a&gt;微信小程序之用户授权&lt;/h1&gt;&lt;h2 id=&quot;一-为什么要进行用户授权&quot;&gt;&lt;a href=&quot;#一-为什么要进行用户授权&quot; class=&quot;headerlink&quot; title=&quot;一.为什么要进行用户授权&quot;&gt;&lt;/a&gt;一.为什么要进行用户授权&lt;/h2&gt;&lt;p&gt;获取用户的openid，昵称，头像等信息&lt;/p&gt;
-&lt;p&gt;授权提示框&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）&lt;/p&gt;
+      &lt;h4 id=&quot;获取用户openid，昵称，头像等&quot;&gt;&lt;a href=&quot;#获取用户openid，昵称，头像等&quot; class=&quot;headerlink&quot; title=&quot;获取用户openid，昵称，头像等&quot;&gt;&lt;/a&gt;获取用户openid，昵称，头像等&lt;/h4&gt;
     
     </summary>
     
@@ -58,396 +460,6 @@
     
       <category term="阿里云服务器" scheme="http://yoursite.com/categories/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>微信JS接口安全域名设置</title>
-    <link href="http://yoursite.com/2018/05/19/%E5%BE%AE%E4%BF%A1JS%E6%8E%A5%E5%8F%A3%E5%AE%89%E5%85%A8%E5%9F%9F%E5%90%8D%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://yoursite.com/2018/05/19/微信JS接口安全域名设置/</id>
-    <published>2018-05-19T11:32:29.000Z</published>
-    <updated>2018-05-19T11:55:28.540Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="一-前期准备工作"><a href="#一-前期准备工作" class="headerlink" title="一.前期准备工作"></a>一.前期准备工作</h1><h4 id="1-申请一个备案的域名"><a href="#1-申请一个备案的域名" class="headerlink" title="1.申请一个备案的域名"></a>1.申请一个备案的域名</h4><p><a href="https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/" target="_blank" rel="noopener">https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/</a></p><a id="more"></a><h4 id="2-购买一个阿里云服务器"><a href="#2-购买一个阿里云服务器" class="headerlink" title="2.购买一个阿里云服务器"></a>2.购买一个阿里云服务器</h4><h4 id="3-开通阿里云服务器80端口"><a href="#3-开通阿里云服务器80端口" class="headerlink" title="3.开通阿里云服务器80端口"></a>3.开通阿里云服务器80端口</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-19-113511.png" alt=""></p><h4 id="4-域名解析配置"><a href="#4-域名解析配置" class="headerlink" title="4.域名解析配置"></a>4.域名解析配置</h4><p><a href="https://dc.console.aliyun.com/next/index#/domain/list/all-domain" target="_blank" rel="noopener">https://dc.console.aliyun.com/next/index#/domain/list/all-domain</a></p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8fs53hkoj30hc0acaaw.jpg" alt=""></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8ft9xxawj30h10abwf6.jpg" alt=""></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8ftzkdscj316f03m3yz.jpg" alt=""></p><h1 id="二-配置安全域名"><a href="#二-配置安全域名" class="headerlink" title="二.配置安全域名"></a>二.配置安全域名</h1><h4 id="1-下载验证文件并部署到阿里云服务器"><a href="#1-下载验证文件并部署到阿里云服务器" class="headerlink" title="1.下载验证文件并部署到阿里云服务器"></a>1.下载验证文件并部署到阿里云服务器</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-19-114922.png" alt=""></p><p><strong>注意：不是webapps的根目录，而是test目录</strong></p><h4 id="2-配置域名-test"><a href="#2-配置域名-test" class="headerlink" title="2.配置域名/test"></a>2.配置域名/test</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-19-115035.png" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-19-115119.png" alt=""></p><h1 id="至此成功配置JS接口安全域名！"><a href="#至此成功配置JS接口安全域名！" class="headerlink" title="至此成功配置JS接口安全域名！"></a>至此成功配置JS接口安全域名！</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;一-前期准备工作&quot;&gt;&lt;a href=&quot;#一-前期准备工作&quot; class=&quot;headerlink&quot; title=&quot;一.前期准备工作&quot;&gt;&lt;/a&gt;一.前期准备工作&lt;/h1&gt;&lt;h4 id=&quot;1-申请一个备案的域名&quot;&gt;&lt;a href=&quot;#1-申请一个备案的域名&quot; class=&quot;headerlink&quot; title=&quot;1.申请一个备案的域名&quot;&gt;&lt;/a&gt;1.申请一个备案的域名&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://andli0626.github.io/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="开发微信" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>微信之登录授权-ShareSDK for Android</title>
-    <link href="http://yoursite.com/2018/05/17/%E5%BE%AE%E4%BF%A1%E4%B9%8B%E7%99%BB%E5%BD%95%E6%8E%88%E6%9D%83-ShareSDK-for-Android/"/>
-    <id>http://yoursite.com/2018/05/17/微信之登录授权-ShareSDK-for-Android/</id>
-    <published>2018-05-17T01:20:07.000Z</published>
-    <updated>2018-05-19T12:01:21.817Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>ShareSDK版本：V2.7.2</p><p>下载地址： <a href="https://dn-epoint.qbox.me/ShareSDK-Android-2.7.2.tar.gz" target="_blank" rel="noopener">https://dn-epoint.qbox.me/ShareSDK-Android-2.7.2.tar.gz</a></p><a id="more"></a><p>先上个效果图</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2017-06-06-141117.jpg" alt=""></p><p>登录授权分为SSO，和非SSO</p><p>通俗点讲SSO就是调用微信客户端进行登录授权（前提是：手机端必须安装微信客户端）</p><p>非SSO就是通过网页的方式请求授权（可以不用安装微信客户端哦）</p><h4 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h4><p>通过微信来实现用户登录</p><h1 id="一-前期准备"><a href="#一-前期准备" class="headerlink" title="一.前期准备"></a>一.前期准备</h1><h2 id="1-帐号申请"><a href="#1-帐号申请" class="headerlink" title="1.帐号申请"></a>1.帐号申请</h2><p><a href="https://open.weixin.qq.com/" target="_blank" rel="noopener">https://open.weixin.qq.com/</a></p><p>首先登录微信开放平台，注册一个帐号</p><h2 id="2-提交APP审核"><a href="#2-提交APP审核" class="headerlink" title="2.提交APP审核"></a>2.提交APP审核</h2><p>为什么必须提交app审核呢？</p><p>请看下图微信开放平台接口使用权限</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2017-06-06-141325.jpg" alt=""></p><p>不提交审核，根本没法用</p><p>提交需要准备：应用名称，应用简介，应用图片（28<em>28，108</em>108），应用官网</p><p>android版本：需要提供应用签名，应用包名</p><p>具体参考官网，按照步骤一步步来</p><h4 id="这里需要注意几点："><a href="#这里需要注意几点：" class="headerlink" title="这里需要注意几点："></a>这里需要注意几点：</h4><h4 id="第一：关于应用签名，需要把你的app打包成APK安装到手机，然后通过签名工具，生成对应的签名"><a href="#第一：关于应用签名，需要把你的app打包成APK安装到手机，然后通过签名工具，生成对应的签名" class="headerlink" title="第一：关于应用签名，需要把你的app打包成APK安装到手机，然后通过签名工具，生成对应的签名"></a>第一：关于应用签名，需要把你的app打包成APK安装到手机，然后通过签名工具，生成对应的签名</h4><p>官方签名工具截图</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-0fcbcffbd289eb09.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><p>我还是推荐使用新浪的签名工具吧！</p><p>下载地址</p><p><a href="https://dn-epoint.qbox.me/app_signatures.apk" target="_blank" rel="noopener">https://dn-epoint.qbox.me/app_signatures.apk</a></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-99ad5e12f06c4989.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h4 id="第二：如果每次打包都是采用相关的证书，那么生成的签名是一样的！！！"><a href="#第二：如果每次打包都是采用相关的证书，那么生成的签名是一样的！！！" class="headerlink" title="第二：如果每次打包都是采用相关的证书，那么生成的签名是一样的！！！"></a>第二：如果每次打包都是采用相关的证书，那么生成的签名是一样的！！！</h4><p>下面就可以提交审核了，审核周期官方说是7天，一般1-2天就可以审核通过了！</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2017-06-06-141541.jpg" alt=""></p><p>APPID还是非常有用的，后面会用到。</p><h2 id="3-手机安装微信客户端"><a href="#3-手机安装微信客户端" class="headerlink" title="3.手机安装微信客户端"></a>3.手机安装微信客户端</h2><p>至此，前期所有的准备工作完成，下面进行代码的整合。</p><h1 id="二-代码整合"><a href="#二-代码整合" class="headerlink" title="二.代码整合"></a>二.代码整合</h1><h4 id="特别说明1：微信登录授权必须取得接口使用权限，既必须在微信开放平台进行开发者认证，否则会提示以下错误"><a href="#特别说明1：微信登录授权必须取得接口使用权限，既必须在微信开放平台进行开发者认证，否则会提示以下错误" class="headerlink" title="特别说明1：微信登录授权必须取得接口使用权限，既必须在微信开放平台进行开发者认证，否则会提示以下错误"></a>特别说明1：微信登录授权必须取得接口使用权限，既必须在微信开放平台进行开发者认证，否则会提示以下错误</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2017-06-06-141750.jpg" alt=""></p><h4 id="特别说明2：微信登录必须要正式打包签名才可以，直接通过Android-Studio安装是无效的"><a href="#特别说明2：微信登录必须要正式打包签名才可以，直接通过Android-Studio安装是无效的" class="headerlink" title="特别说明2：微信登录必须要正式打包签名才可以，直接通过Android Studio安装是无效的"></a>特别说明2：微信登录必须要正式打包签名才可以，直接通过Android Studio安装是无效的</h4><h2 id="0-新建项目"><a href="#0-新建项目" class="headerlink" title="0.新建项目"></a>0.新建项目</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2017-06-06-141841.jpg" alt=""></p><h2 id="1-权限配置"><a href="#1-权限配置" class="headerlink" title="1.权限配置"></a>1.权限配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&lt;uses-permission android:name=&quot;android.permission.GET_TASKS&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.ACCESS_WIFI_STATE&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot;/&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.CHANGE_WIFI_STATE&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.READ_PHONE_STATE&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.MANAGE_ACCOUNTS&quot;/&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.GET_ACCOUNTS&quot;/&gt;</span><br><span class="line">    &lt;!-- 蓝牙分享所需的权限 --&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.BLUETOOTH&quot; /&gt;</span><br><span class="line">    &lt;uses-permission android:name=&quot;android.permission.BLUETOOTH_ADMIN&quot;/&gt;</span><br></pre></td></tr></table></figure><h2 id="2-AndroidManifest-xml配置"><a href="#2-AndroidManifest-xml配置" class="headerlink" title="2.AndroidManifest.xml配置"></a>2.AndroidManifest.xml配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--分享UI配置--&gt;</span><br><span class="line">    &lt;activity</span><br><span class="line">            android:name=&quot;com.mob.tools.MobUIShell&quot;</span><br><span class="line">            android:configChanges=&quot;keyboardHidden|orientation|screenSize&quot;</span><br><span class="line">            android:screenOrientation=&quot;portrait&quot;</span><br><span class="line">            android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot;</span><br><span class="line">            android:windowSoftInputMode=&quot;stateHidden|adjustResize&quot; &gt;</span><br><span class="line">            &lt;intent-filter&gt;</span><br><span class="line">                &lt;data android:scheme=&quot;tencent100371282&quot; /&gt;</span><br><span class="line"></span><br><span class="line">                &lt;action android:name=&quot;android.intent.action.VIEW&quot; /&gt;</span><br><span class="line"></span><br><span class="line">                &lt;category android:name=&quot;android.intent.category.BROWSABLE&quot; /&gt;</span><br><span class="line">                &lt;category android:name=&quot;android.intent.category.DEFAULT&quot; /&gt;</span><br><span class="line">            &lt;/intent-filter&gt;</span><br><span class="line">      &lt;/activity&gt;</span><br><span class="line"></span><br><span class="line">    &lt;!-- 微信分享回调 --&gt;</span><br><span class="line">      &lt;activity</span><br><span class="line">            android:name=&quot;.wxapi.WXEntryActivity&quot;</span><br><span class="line">            android:configChanges=&quot;keyboardHidden|orientation|screenSize&quot;</span><br><span class="line">            android:exported=&quot;true&quot;</span><br><span class="line">            android:screenOrientation=&quot;portrait&quot;</span><br><span class="line">            android:theme=&quot;@android:style/Theme.Translucent.NoTitleBar&quot; /&gt;</span><br></pre></td></tr></table></figure><h2 id="3-ShareSDK-xml配置配置"><a href="#3-ShareSDK-xml配置配置" class="headerlink" title="3.ShareSDK.xml配置配置"></a>3.ShareSDK.xml配置配置</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-46a1077fba09e1fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="新建assets3.png"></p><p>需要配置ShareSDK AppKey，微信AppID，AppSecret</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-31afe5486046cb42.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="ShareSDK.xml配置.png"></p><p>特别注意：需要配置三处，分别针对微信好友，微信朋友圈，微信收藏</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-849ce4eb482fb577.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="微信AppID,AppSecret配置.png"></p><h2 id="4-导入SDK文件"><a href="#4-导入SDK文件" class="headerlink" title="4.导入SDK文件"></a>4.导入SDK文件</h2><p>首先通过SDK自带的工具生成相应的文件</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-53192246e52c1c6d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="生成ShareSDK.png"></p><p>然后将相应的文件拷贝到对应的目录即可</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-3e263c855c723a42.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="文件目录对应关系.png"></p><h2 id="5-核心代码"><a href="#5-核心代码" class="headerlink" title="5.核心代码"></a>5.核心代码</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br></pre></td><td class="code"><pre><span class="line">// 授权登录</span><br><span class="line">      private void authorize(Platform plat,Boolean isSSO) &#123;</span><br><span class="line">       // 判断指定平台是否已经完成授权</span><br><span class="line">       if (plat.isValid()) &#123;</span><br><span class="line">        // 已经完成授权，直接读取本地授权信息，执行相关逻辑操作（如登录操作）</span><br><span class="line">        String userId = plat.getDb().getUserId();</span><br><span class="line">        if (!TextUtils.isEmpty(userId)) &#123;</span><br><span class="line">         UIHandler.sendEmptyMessage(MSG_USERID_FOUND, this);</span><br><span class="line">         login(plat.getName(), userId, null);</span><br><span class="line">         return;</span><br><span class="line">        &#125;</span><br><span class="line">       &#125;</span><br><span class="line">       plat.setPlatformActionListener(this);</span><br><span class="line">       // 是否使用SSO授权：true不使用，false使用</span><br><span class="line">       plat.SSOSetting(isSSO);</span><br><span class="line">       // 获取用户资料</span><br><span class="line">       plat.showUser(null);</span><br><span class="line">      &#125;</span><br><span class="line">      // 取消授权</span><br><span class="line">      private void cancleAuth()&#123;</span><br><span class="line">       Platform wxPlatform = ShareSDK.getPlatform(Wechat.NAME);</span><br><span class="line">       wxPlatform.removeAccount();</span><br><span class="line">       Toast.makeText(this,&quot;取消授权成功!&quot;, Toast.LENGTH_SHORT).show();</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      // 回调：授权成功</span><br><span class="line">      public void onComplete(Platform platform, int action,HashMap&lt;String, Object&gt; res) &#123;</span><br><span class="line">       if (action == Platform.ACTION_USER_INFOR) &#123;</span><br><span class="line">        UIHandler.sendEmptyMessage(MSG_AUTH_COMPLETE, this);</span><br><span class="line">        // 业务逻辑处理：比如登录操作</span><br><span class="line">        String userName = platform.getDb().getUserName(); // 用户昵称</span><br><span class="line">        String userId = platform.getDb().getUserId();   // 用户Id</span><br><span class="line">        String platName = platform.getName();     // 平台名称</span><br><span class="line"></span><br><span class="line">        login(platName, userName, res);</span><br><span class="line">       &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      // 回调：授权失败</span><br><span class="line">      public void onError(Platform platform, int action, Throwable t) &#123;</span><br><span class="line">       if (action == Platform.ACTION_USER_INFOR) &#123;</span><br><span class="line">        UIHandler.sendEmptyMessage(MSG_AUTH_ERROR, this);</span><br><span class="line">       &#125;</span><br><span class="line">       t.printStackTrace();</span><br><span class="line">      &#125;</span><br><span class="line">      // 回调：授权取消</span><br><span class="line">      public void onCancel(Platform platform, int action) &#123;</span><br><span class="line">       if (action == Platform.ACTION_USER_INFOR) &#123;</span><br><span class="line">        UIHandler.sendEmptyMessage(MSG_AUTH_CANCEL, this);</span><br><span class="line">       &#125;</span><br><span class="line">      &#125;</span><br><span class="line">      // 业务逻辑：登录处理</span><br><span class="line">      private void login(String plat, String userId,HashMap&lt;String, Object&gt; userInfo) &#123;</span><br><span class="line">       Toast.makeText(this, &quot;用户ID:&quot;+userId, Toast.LENGTH_SHORT).show();</span><br><span class="line">       Message msg = new Message();</span><br><span class="line">       msg.what    = MSG_LOGIN;</span><br><span class="line">       msg.obj     = plat;</span><br><span class="line">       UIHandler.sendMessage(msg, this);</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">      // 统一消息处理</span><br><span class="line">      private static final int MSG_USERID_FOUND  = 1; // 用户信息已存在</span><br><span class="line">      private static final int MSG_LOGIN    = 2; // 登录操作</span><br><span class="line">      private static final int MSG_AUTH_CANCEL  = 3; // 授权取消</span><br><span class="line">      private static final int MSG_AUTH_ERROR  = 4; // 授权错误</span><br><span class="line">      private static final int MSG_AUTH_COMPLETE  = 5; // 授权完成</span><br><span class="line"></span><br><span class="line">      public boolean handleMessage(Message msg) &#123;</span><br><span class="line">       switch (msg.what) &#123;</span><br><span class="line"></span><br><span class="line">       case MSG_USERID_FOUND: </span><br><span class="line">        Toast.makeText(this, &quot;用户信息已存在，正在跳转登录操作......&quot;,  Toast.LENGTH_SHORT).show();</span><br><span class="line">        break;</span><br><span class="line">       case MSG_LOGIN: </span><br><span class="line">        Toast.makeText(this, &quot;使用微信帐号登录中...&quot;,      Toast.LENGTH_SHORT).show();</span><br><span class="line">        break;</span><br><span class="line">       case MSG_AUTH_CANCEL:</span><br><span class="line">        Toast.makeText(this, &quot;授权操作已取消&quot;,       Toast.LENGTH_SHORT).show();</span><br><span class="line">        break;</span><br><span class="line">       case MSG_AUTH_ERROR: </span><br><span class="line">        Toast.makeText(this, &quot;授权操作遇到错误，请阅读Logcat输出&quot;,   Toast.LENGTH_SHORT).show();</span><br><span class="line">        break;</span><br><span class="line">       case MSG_AUTH_COMPLETE: </span><br><span class="line">        Toast.makeText(this,&quot;授权成功，正在跳转登录操作…&quot;,     Toast.LENGTH_SHORT).show();</span><br><span class="line">        // 执行相关业务逻辑操作，比如登录操作</span><br><span class="line">        String userName = new Wechat(MainActivity.this).getDb().getUserName(); // 用户昵称</span><br><span class="line">        String userId = new Wechat(MainActivity.this).getDb().getUserId();   // 用户Id</span><br><span class="line">        String platName = new Wechat(MainActivity.this).getName();      // 平台名称</span><br><span class="line"></span><br><span class="line">        login(platName, userId, null);</span><br><span class="line">        break;</span><br><span class="line">       &#125;</span><br><span class="line">       return false;</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure><p><img src="http://upload-images.jianshu.io/upload_images/80578-9c250596aa72f227.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="初始化ShareSDK.png"></p><p>至此，一个微信登录授权的Demo就完成了。</p><p>是不是就完了，NO，具体项目中怎么应用呢？下面我们就来分析下项目如何应用</p><h1 id="三-项目实战"><a href="#三-项目实战" class="headerlink" title="三.项目实战"></a>三.项目实战</h1><p>主要分2种情况：</p><h2 id="第一种：APP有注册，登录功能"><a href="#第一种：APP有注册，登录功能" class="headerlink" title="第一种：APP有注册，登录功能"></a>第一种：APP有注册，登录功能</h2><p>APP本身有一套自己的用户系统，微信登录只是一种登录方式，那么就需要实现原有用户与微信用户的绑定</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-384beca1220d89a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="第一种情况.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">补充说明：</span><br><span class="line">要数据，不要功能</span><br><span class="line">如果你的应用拥有用户系统，就是说你的应用自己就有注册和登录功能，使用第三方登录只是为了拥有更多用户，那么你可以依照下面的步骤来做：</span><br><span class="line">1、用户触发第三方登录事件</span><br><span class="line">2、showUser(null)请求授权用户的资料（这个过程中可能涉及授权操作）</span><br><span class="line">3、如果onComplete()方法被回调，将其参数Hashmap代入你应用的Login流程</span><br><span class="line">4、否则提示错误，调用removeAccount()方法，删除可能的授权缓存数据</span><br><span class="line">5、Login时客户端发送用户资料中的用户ID给服务端</span><br><span class="line">6、服务端判定用户是已注册用户，则引导用户进入系统，否则返回特定错误码</span><br><span class="line">7、客户端收到“未注册用户”错误码以后，代入用户资料到你应用的Register流程</span><br><span class="line">8、Register时在用户资料中挑选你应用的注册所需字段，并提交服务端注册</span><br><span class="line">9、服务端完成用户注册，成功则反馈客户端引导用户进入系统</span><br><span class="line">10、否则提示错误，调用removeAccount()方法，删除可能的授权缓存数据</span><br></pre></td></tr></table></figure><h2 id="第二种：APP无注册功能"><a href="#第二种：APP无注册功能" class="headerlink" title="第二种：APP无注册功能"></a>第二种：APP无注册功能</h2><p>APP本身没有自己的用户系统，微信登录是唯一的入口，只要授权通过，就可以进入APP</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-35067df29a52e2c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="第二种情况.png"></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">补充说明：</span><br><span class="line">要功能，不要数据</span><br><span class="line">如果你的应用不具备用户系统，而且也不打算维护这个系统，那么你可以依照下面的步骤来做：</span><br><span class="line">1、用户触发第三方登录事件</span><br><span class="line">2、调用platform.getDb().getUserId()请求用户在此平台上的ID</span><br><span class="line">3、如果用户ID存在，则认为用户是合法用户，允许进入系统；否则调用authorize()</span><br><span class="line">4、authorize()方法将引导用户在授权页面输入帐号密码，然后目标平台将验证此用户</span><br><span class="line">5、如果onComplete()方法被回调，表示授权成功，引导用户进入系统</span><br><span class="line">6、否则提示错误，调用removeAccount()方法，删除可能的授权缓存数据</span><br></pre></td></tr></table></figure><h2 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h2><h5 id="对于Android应用，建议总是显示微信登录按钮，当用户手机没有安装微信客户端时，请引导用户下载安装微信客户端。"><a href="#对于Android应用，建议总是显示微信登录按钮，当用户手机没有安装微信客户端时，请引导用户下载安装微信客户端。" class="headerlink" title="对于Android应用，建议总是显示微信登录按钮，当用户手机没有安装微信客户端时，请引导用户下载安装微信客户端。"></a>对于Android应用，建议总是显示微信登录按钮，当用户手机没有安装微信客户端时，请引导用户下载安装微信客户端。</h5><h5 id="对于iOS应用，考虑到iOS应用商店审核指南中的相关规定，建议开发者接入微信登录时，先检测用户手机是否已安装微信客户端，对未安装的用户隐藏微信登录按钮，只提供其他登录方式（比如手机号注册登录、游客登录等）"><a href="#对于iOS应用，考虑到iOS应用商店审核指南中的相关规定，建议开发者接入微信登录时，先检测用户手机是否已安装微信客户端，对未安装的用户隐藏微信登录按钮，只提供其他登录方式（比如手机号注册登录、游客登录等）" class="headerlink" title="对于iOS应用，考虑到iOS应用商店审核指南中的相关规定，建议开发者接入微信登录时，先检测用户手机是否已安装微信客户端，对未安装的用户隐藏微信登录按钮，只提供其他登录方式（比如手机号注册登录、游客登录等）"></a>对于iOS应用，考虑到iOS应用商店审核指南中的相关规定，建议开发者接入微信登录时，先检测用户手机是否已安装微信客户端，对未安装的用户隐藏微信登录按钮，只提供其他登录方式（比如手机号注册登录、游客登录等）</h5>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;ShareSDK版本：V2.7.2&lt;/p&gt;
-&lt;p&gt;下载地址： &lt;a href=&quot;https://dn-epoint.qbox.me/ShareSDK-Android-2.7.2.tar.gz&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://dn-epoint.qbox.me/ShareSDK-Android-2.7.2.tar.gz&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="开发Android" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91Android/"/>
-    
-    
-      <category term="ShareSDK" scheme="http://yoursite.com/tags/ShareSDK/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>腾讯慧眼</title>
-    <link href="http://yoursite.com/2018/05/16/%E8%85%BE%E8%AE%AF%E6%85%A7%E7%9C%BC/"/>
-    <id>http://yoursite.com/2018/05/16/腾讯慧眼/</id>
-    <published>2018-05-16T07:46:42.000Z</published>
-    <updated>2018-05-16T09:53:26.764Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="一-官方网址"><a href="#一-官方网址" class="headerlink" title="一.官方网址"></a>一.官方网址</h1><h4 id="http-plus-tencent-com-ident"><a href="#http-plus-tencent-com-ident" class="headerlink" title="http://plus.tencent.com/ident"></a><a href="http://plus.tencent.com/ident" target="_blank">http://plus.tencent.com/ident</a></h4><a id="more"></a><h4 id="下载-开发文档"><a href="#下载-开发文档" class="headerlink" title="下载-开发文档"></a><a href="https://note.youdao.com/share/?id=cf09cfa1da34e7c3764070680d94c8c3&type=notebook#/" target="_blank">下载-开发文档</a></h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-16-032254.png" alt=""></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-16-032339.png" alt=""></p><h2 id="二-官方示例（微信端）"><a href="#二-官方示例（微信端）" class="headerlink" title="二.官方示例（微信端）"></a>二.官方示例（微信端）</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-01-05-%E8%85%BE%E8%AE%AF%E6%85%A7%E7%9C%BC-1.png" alt=""></p><h2 id="三-项目案例"><a href="#三-项目案例" class="headerlink" title="三.项目案例"></a>三.项目案例</h2><h4 id="1-微信公众号-西咸空港（实名认证）"><a href="#1-微信公众号-西咸空港（实名认证）" class="headerlink" title="1.微信公众号-西咸空港（实名认证）"></a>1.微信公众号-西咸空港（实名认证）</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-01-05-%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B%EF%BC%88%E8%A5%BF%E5%92%B8%E7%A9%BA%E6%B8%AF%EF%BC%89.png" alt=""></p><h6 id="其他实名认证方案"><a href="#其他实名认证方案" class="headerlink" title="其他实名认证方案"></a><a href="http://naotu.baidu.com/file/72902f7a3ca7d6a9c784f6dab5c4da1a?token=b4e3c67d50d3d922" target="_blank">其他实名认证方案</a></h6>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;一-官方网址&quot;&gt;&lt;a href=&quot;#一-官方网址&quot; class=&quot;headerlink&quot; title=&quot;一.官方网址&quot;&gt;&lt;/a&gt;一.官方网址&lt;/h1&gt;&lt;h4 id=&quot;http-plus-tencent-com-ident&quot;&gt;&lt;a href=&quot;#http-plus-tencent-com-ident&quot; class=&quot;headerlink&quot; title=&quot;http://plus.tencent.com/ident&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://plus.tencent.com/ident&quot; target=&quot;_blank&quot;&gt;http://plus.tencent.com/ident&lt;/a&gt;&lt;/h4&gt;
-    
-    </summary>
-    
-    
-      <category term="人脸识别" scheme="http://yoursite.com/tags/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Bmob删除</title>
-    <link href="http://yoursite.com/2018/05/14/Bmob%E5%88%A0%E9%99%A4/"/>
-    <id>http://yoursite.com/2018/05/14/Bmob删除/</id>
-    <published>2018-05-14T12:12:04.000Z</published>
-    <updated>2018-05-14T13:06:24.637Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="删除操作"><a href="#删除操作" class="headerlink" title="删除操作"></a>删除操作</h2><a id="more"></a><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-14-121421.png" alt=""></p><h4 id="XML"><a href="#XML" class="headerlink" title="XML"></a>XML</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;text class=&quot;del&quot; catchtap=&quot;deleteDiary&quot; data-id=&quot;&#123;&#123;item.objectId&#125;&#125;&quot;&gt;删除&lt;/text&gt;</span><br></pre></td></tr></table></figure><h4 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h4><p>列表下标获取<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">var that = this;</span><br><span class="line"></span><br><span class="line">var target = e.currentTarget;</span><br><span class="line">var index = target.dataset.index;</span><br><span class="line">var objectId = target.dataset.id;</span><br><span class="line"></span><br><span class="line">console.log(&quot;下标：&quot; + index);</span><br><span class="line">console.log(&quot;objectId:&quot; + objectId);</span><br></pre></td></tr></table></figure></p><p>核心删除代码</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">deleteDiary: function (event) &#123;</span><br><span class="line"></span><br><span class="line">  var that = this;</span><br><span class="line">  var objectId = event.target.dataset.id;</span><br><span class="line"></span><br><span class="line">  wx.showModal(&#123;</span><br><span class="line">    title: &apos;操作提示&apos;,</span><br><span class="line">    content: &apos;确定要删除要日记？&apos;,</span><br><span class="line">    success: function (res) &#123;</span><br><span class="line">      if (res.confirm) &#123;</span><br><span class="line">        var Diary = Bmob.Object.extend(&quot;diary&quot;);</span><br><span class="line">        var query = new Bmob.Query(Diary);</span><br><span class="line">        query.get(objectId, &#123;</span><br><span class="line">          success: function (object) &#123;</span><br><span class="line">            object.destroy(&#123;</span><br><span class="line">              success: function (deleteObject) &#123;</span><br><span class="line">                console.log(&apos;删除日记成功&apos;);</span><br><span class="line">                getList(that)</span><br><span class="line">              &#125;,</span><br><span class="line">              error: function (object, error) &#123;</span><br><span class="line">                console.log(&apos;删除日记失败&apos;);</span><br><span class="line">              &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">          &#125;,</span><br><span class="line">          error: function (object, error) &#123;</span><br><span class="line">            console.log(&quot;query object fail&quot;);</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-14-121501.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;删除操作&quot;&gt;&lt;a href=&quot;#删除操作&quot; class=&quot;headerlink&quot; title=&quot;删除操作&quot;&gt;&lt;/a&gt;删除操作&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="Bmob" scheme="http://yoursite.com/categories/Bmob/"/>
-    
-    
-      <category term="微信小程序" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>atom报错&quot;Cannot load the system dictionary for zh-CN&quot;</title>
-    <link href="http://yoursite.com/2018/05/12/atom%E6%8A%A5%E9%94%99/"/>
-    <id>http://yoursite.com/2018/05/12/atom报错/</id>
-    <published>2018-05-12T08:33:03.000Z</published>
-    <updated>2018-05-14T12:07:26.583Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="错误截图"><a href="#错误截图" class="headerlink" title="错误截图"></a>错误截图</h2><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8bp879xoj30cv05gjsl.jpg" alt=""></p><a id="more"></a><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fr8bpof44jj30es0nyq7l.jpg" alt=""></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://newsn.net/say/atom-error-cant-load.html" target="_blank" rel="noopener">https://newsn.net/say/atom-error-cant-load.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;错误截图&quot;&gt;&lt;a href=&quot;#错误截图&quot; class=&quot;headerlink&quot; title=&quot;错误截图&quot;&gt;&lt;/a&gt;错误截图&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://ws3.sinaimg.cn/large/006tNc79gy1fr8bp879xoj30cv05gjsl.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="Atom" scheme="http://yoursite.com/tags/Atom/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三.通过域名访问你的github博客(Hexo)</title>
-    <link href="http://yoursite.com/2018/05/12/%E4%B8%89-%E9%80%9A%E8%BF%87%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2018/05/12/三-通过域名访问你的博客/</id>
-    <published>2018-05-12T04:13:59.000Z</published>
-    <updated>2018-05-12T10:54:14.947Z</updated>
-    
-    <content type="html"><![CDATA[<p>既然已经有了域名，那么就可以通过域名来访问我们的博客。<br><a id="more"></a></p><h2 id="一-获得博客IP地址"><a href="#一-获得博客IP地址" class="headerlink" title="一.获得博客IP地址"></a>一.获得博客IP地址</h2><p>通过ping命令</p><pre><code>ping andli0626.github.io185.199.110.153</code></pre><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8fof8wqfj30jo04rq64.jpg" alt=""></p><h2 id="二-设置域名解析"><a href="#二-设置域名解析" class="headerlink" title="二.设置域名解析"></a>二.设置域名解析</h2><p><a href="https://dc.console.aliyun.com/next/index#/domain/list/all-domain" target="_blank" rel="noopener">https://dc.console.aliyun.com/next/index#/domain/list/all-domain</a></p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8fs53hkoj30hc0acaaw.jpg" alt=""></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8ft9xxawj30h10abwf6.jpg" alt=""></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8ftzkdscj316f03m3yz.jpg" alt=""></p><h2 id="三-github设置"><a href="#三-github设置" class="headerlink" title="三.github设置"></a>三.github设置</h2><p><a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/" target="_blank" rel="noopener">https://help.github.com/articles/using-a-custom-domain-with-github-pages/</a></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8fw6b28cj30lg0it777.jpg" alt=""></p><h4 id="注意域名解析配置生效需要一会时间"><a href="#注意域名解析配置生效需要一会时间" class="headerlink" title="注意域名解析配置生效需要一会时间"></a>注意域名解析配置生效需要一会时间</h4><p><a href="http://www.linyitec.top/" target="_blank" rel="noopener">http://www.linyitec.top/</a></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8fzp1ggjj30y609875n.jpg" alt=""></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://blog.csdn.net/wolf6699/article/details/78653547" target="_blank" rel="noopener">https://blog.csdn.net/wolf6699/article/details/78653547</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;既然已经有了域名，那么就可以通过域名来访问我们的博客。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二.NATAPP绑定自主域名</title>
-    <link href="http://yoursite.com/2018/05/12/%E4%BA%8C.NATAPP%E7%BB%91%E5%AE%9A%E8%87%AA%E4%B8%BB%E5%9F%9F%E5%90%8D/"/>
-    <id>http://yoursite.com/2018/05/12/二.NATAPP绑定自主域名/</id>
-    <published>2018-05-12T03:05:29.000Z</published>
-    <updated>2018-05-12T10:54:14.948Z</updated>
-    
-    <content type="html"><![CDATA[<p>NATAPP绑定自主域名，从而实现对微信开发的本地调试。<br><a href="https://natapp.cn/article/beian" target="_blank" rel="noopener">https://natapp.cn/article/beian</a></p><a id="more"></a><h2 id="一-添加备案域名"><a href="#一-添加备案域名" class="headerlink" title="一.添加备案域名"></a>一.添加备案域名</h2><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8dojrzbwj30hs095td1.jpg" alt=""></p><p>默认已经授权阿里云</p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8dpynvwuj30jj038my8.jpg" alt=""></p><h2 id="二-域名解析设置"><a href="#二-域名解析设置" class="headerlink" title="二.域名解析设置"></a>二.域名解析设置</h2><p><a href="https://dc.console.aliyun.com/next/index#/domain/list/all-domain" target="_blank" rel="noopener">https://dc.console.aliyun.com/next/index#/domain/list/all-domain</a></p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8dsbf8u5j31gz0eijvs.jpg" alt=""></p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8dsrwomlj31h20b4go8.jpg" alt=""></p><p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fr8dugjaajj30jw0c90tk.jpg" alt=""></p><p>ping一下，说明解析OK</p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8e57sssaj30go03bwg3.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;NATAPP绑定自主域名，从而实现对微信开发的本地调试。&lt;br&gt;&lt;a href=&quot;https://natapp.cn/article/beian&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://natapp.cn/article/beian&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一.域名申请备案流程</title>
-    <link href="http://yoursite.com/2018/05/12/%E4%B8%80.%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%E5%A4%87%E6%A1%88%E6%B5%81%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/05/12/一.域名申请备案流程/</id>
-    <published>2018-05-12T02:06:25.000Z</published>
-    <updated>2018-06-09T01:23:55.441Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文主要记录通过阿里云购买域名并备案全过程</p><p><a href="https://wanwang.aliyun.com/" target="_blank" rel="noopener">https://wanwang.aliyun.com/</a></p><a id="more"></a><h2 id="一-购买域名"><a href="#一-购买域名" class="headerlink" title="一.购买域名"></a>一.购买域名</h2><p><a href="https://wanwang.aliyun.com/domain/" target="_blank" rel="noopener">https://wanwang.aliyun.com/domain/</a></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8c12egk5j30xy0cqak2.jpg" alt=""></p><p>付款购买即可，通过控制台，可以看到刚刚买到的域名</p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8c3r6y23j31hb0ebdk3.jpg" alt=""></p><h2 id="二-域名备案"><a href="#二-域名备案" class="headerlink" title="二.域名备案"></a>二.域名备案</h2><h4 id="1-前提条件"><a href="#1-前提条件" class="headerlink" title="1.前提条件"></a>1.前提条件</h4><p>有一台阿里云服务器，用来申请备案服务号，后续填写备案资料时会用到。</p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8ccgelraj30co059jro.jpg" alt=""></p><p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fr8cdazayvj30ub0cpju5.jpg" alt=""></p><p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1fr8cegmt34j30yq06c0uc.jpg" alt=""></p><h4 id="2-通过ICP备案系统完成备案申请"><a href="#2-通过ICP备案系统完成备案申请" class="headerlink" title="2.通过ICP备案系统完成备案申请"></a>2.通过ICP备案系统完成备案申请</h4><p>备案教程：<a href="https://help.aliyun.com/product/35468.html?spm=a3c00.7621333.a3c1z.3.7565jn4xjn4xnZ" target="_blank" rel="noopener">https://help.aliyun.com/product/35468.html?spm=a3c00.7621333.a3c1z.3.7565jn4xjn4xnZ</a></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8cfbn4yxj30bf0aq0te.jpg" alt=""></p><p>主要分为四大步骤</p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8chjpg5wj30rg05u755.jpg" alt=""></p><h5 id="1-开始备案"><a href="#1-开始备案" class="headerlink" title="(1)开始备案"></a>(1)开始备案</h5><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8cjb78g9j30tn0oagra.jpg" alt=""></p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8cl15oqaj30ok0jd76h.jpg" alt=""></p><h5 id="2-填写主办单位信息"><a href="#2-填写主办单位信息" class="headerlink" title="(2)填写主办单位信息"></a>(2)填写主办单位信息</h5><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8cnk7o2zj30t5122426.jpg" alt=""></p><h5 id="3-填写网站信息"><a href="#3-填写网站信息" class="headerlink" title="(3)填写网站信息"></a>(3)填写网站信息</h5><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8cpzdyycj30xl0qlwla.jpg" alt=""></p><h5 id="4-上传资料"><a href="#4-上传资料" class="headerlink" title="(4)上传资料"></a>(4)上传资料</h5><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8cwe8gwqj30su18e46p.jpg" alt=""></p><p>1.身份证</p><p>2.网站备案信息真实核验单（打印后，签字，拍照上传）</p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr8cyl6dp3j30z90p07m2.jpg" alt=""></p><p>3.域名证书下载<br><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8cv29mdaj30ve0wxwxt.jpg" alt=""></p><h5 id="5-备案信息审核"><a href="#5-备案信息审核" class="headerlink" title="(5)备案信息审核"></a>(5)备案信息审核</h5><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8cz0q3wdj30t707fdgt.jpg" alt=""></p><p>审核通过后</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-09-012234.png" alt=""></p><h5 id="6-拍照上传"><a href="#6-拍照上传" class="headerlink" title="(6)拍照上传"></a>(6)拍照上传</h5><p>收到幕布后，按要求拍照，上传照片即可。</p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8d17dzmuj30qo0f476g.jpg" alt=""></p><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fr8d0xk63rj30rv131agd.jpg" alt=""></p><h5 id="7-管理局审核"><a href="#7-管理局审核" class="headerlink" title="(7)管理局审核"></a>(7)管理局审核</h5><p>审核时间比较长，耐心等待。<br><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8d3jst45j30rg07qgo0.jpg" alt=""></p><h5 id="8-审核通过"><a href="#8-审核通过" class="headerlink" title="(8)审核通过"></a>(8)审核通过</h5><p>手机短信提醒</p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8d5goilkj309q0h5wht.jpg" alt=""></p><p>邮箱提醒</p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr8db3n0z4j30cy00x0sp.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文主要记录通过阿里云购买域名并备案全过程&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://wanwang.aliyun.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://wanwang.aliyun.com/&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="域名" scheme="http://yoursite.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用serv-u搭建FTP服务</title>
-    <link href="http://yoursite.com/2018/05/11/%E4%BD%BF%E7%94%A8serv-u%E6%90%AD%E5%BB%BAFTP%E6%9C%8D%E5%8A%A1/"/>
-    <id>http://yoursite.com/2018/05/11/使用serv-u搭建FTP服务/</id>
-    <published>2018-05-11T06:39:59.000Z</published>
-    <updated>2018-05-11T12:26:19.034Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一-用途"><a href="#一-用途" class="headerlink" title="一.用途"></a>一.用途</h2><p>在服务器上搭建FTP服务，其他人可以通过FTP访问服务器资源。</p><a id="more"></a><h2 id="二-安装"><a href="#二-安装" class="headerlink" title="二.安装"></a>二.安装</h2><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a><a href="http://note.youdao.com/noteshare?id=bc3e07250b5a152588a28d79bf07a8de" target="_blank">下载</a></h4><p></p><h2 id="三-搭建"><a href="#三-搭建" class="headerlink" title="三.搭建"></a>三.搭建</h2><h4 id="百度教程"><a href="#百度教程" class="headerlink" title="百度教程"></a><a href="https://jingyan.baidu.com/article/cb5d6105c00bba005c2fe0ca.html" target="_blank">百度教程</a></h4><p></p><h2 id="四-问题"><a href="#四-问题" class="headerlink" title="四.问题"></a>四.问题</h2><h4 id="问题一：通过FTP复制文件提示错误"><a href="#问题一：通过FTP复制文件提示错误" class="headerlink" title="问题一：通过FTP复制文件提示错误"></a>问题一：通过FTP复制文件提示错误</h4><p><mark>主要是中文名称导致</mark></p><p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fr7dto13auj30db06st90.jpg" alt=""></p><p>配置参考如下：</p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr7e0ff2tvj30ud0cfafb.jpg" alt=""></p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr7e0y6933j30fa09pmyq.jpg" alt=""></p><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fr7e1intklj30lo09ngo5.jpg" alt=""></p><h4 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a><a href="https://jingyan.baidu.com/article/2f9b480dae898f41cb6cc282.html" target="_blank">参考文章</a></h4><p></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一-用途&quot;&gt;&lt;a href=&quot;#一-用途&quot; class=&quot;headerlink&quot; title=&quot;一.用途&quot;&gt;&lt;/a&gt;一.用途&lt;/h2&gt;&lt;p&gt;在服务器上搭建FTP服务，其他人可以通过FTP访问服务器资源。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="Serv-U" scheme="http://yoursite.com/tags/Serv-U/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何在mac上搭建svn服务</title>
-    <link href="http://yoursite.com/2018/05/05/%E5%A6%82%E4%BD%95%E5%9C%A8mac%E4%B8%8A%E6%90%AD%E5%BB%BAsvn%E6%9C%8D%E5%8A%A1/"/>
-    <id>http://yoursite.com/2018/05/05/如何在mac上搭建svn服务/</id>
-    <published>2018-05-05T08:33:03.000Z</published>
-    <updated>2018-05-05T08:35:13.067Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1-新建一个文件夹"><a href="#1-新建一个文件夹" class="headerlink" title="1.新建一个文件夹"></a>1.新建一个文件夹</h2><p>比如在 /users/apple/下新建一个svn/mycode文件夹</p><a id="more"></a><p><img src="http://upload-images.jianshu.io/upload_images/80578-383cfc9537e6d7d3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h2 id="2-初始化一个svn目录"><a href="#2-初始化一个svn目录" class="headerlink" title="2.初始化一个svn目录"></a>2.初始化一个svn目录</h2><p>终端执行</p><p>svnadmin create /Users/apple/svn/mycode</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-6281c28cad0fc6d9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h2 id="3-配置svn权限"><a href="#3-配置svn权限" class="headerlink" title="3.配置svn权限"></a>3.配置svn权限</h2><p>修改三个文件</p><h4 id="a-修改svnserver-conf"><a href="#a-修改svnserver-conf" class="headerlink" title="a. 修改svnserver.conf"></a>a. 修改svnserver.conf</h4><p>将下列配置项前面的#和空格都去掉</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-85c0e0a6e0e7a893.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><p>注意：设置 anon-access = none</p><h4 id="b-修改passwd"><a href="#b-修改passwd" class="headerlink" title="b. 修改passwd"></a>b. 修改passwd</h4><p>在[users]下面添加帐号和密码</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-d174e21e83e4fa7a.jpg" alt=""></p><p>帐号test，密码123456</p><h4 id="c-修改authz"><a href="#c-修改authz" class="headerlink" title="c. 修改authz"></a>c. 修改authz</h4><p>配置用户组和权限</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-c7cd7122653bf55b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><p>配置文件参考，下载地址<a href="http://note.youdao.com/noteshare?id=c4cbe1d0634a0dc6f13bbf17d4e5b35b" target="_blank" rel="noopener">http://note.youdao.com/noteshare?id=c4cbe1d0634a0dc6f13bbf17d4e5b35b</a></p><h2 id="4-启动svn服务"><a href="#4-启动svn服务" class="headerlink" title="4.启动svn服务"></a>4.启动svn服务</h2><p>终端运行</p><p>svnserve -d -r /Users/apple/svn</p><h2 id="5-检查启动是否成功"><a href="#5-检查启动是否成功" class="headerlink" title="5.检查启动是否成功"></a>5.检查启动是否成功</h2><p>通过『活动监视器』查看svn服务是否启动成功</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-b22e74a00d2fefab.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h2 id="6-访问svn"><a href="#6-访问svn" class="headerlink" title="6.访问svn"></a>6.访问svn</h2><p>svn://localhost/mycode</p><p>通过Versions访问，配置如下：</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-3e78bcb36afd67cb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h4 id="特别注意：svn管理工具的版本不能低于svn服务器的版本，否则会报错"><a href="#特别注意：svn管理工具的版本不能低于svn服务器的版本，否则会报错" class="headerlink" title="特别注意：svn管理工具的版本不能低于svn服务器的版本，否则会报错"></a>特别注意：svn管理工具的版本不能低于svn服务器的版本，否则会报错</h4><p>如何关闭svn服务器</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-da0fb2936b6af0d2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h2 id="7-设置为开机自启动"><a href="#7-设置为开机自启动" class="headerlink" title="7.设置为开机自启动"></a>7.设置为开机自启动</h2><p><a href="http://www.jianshu.com/p/f949e24ea1ce" target="_blank" rel="noopener">http://www.jianshu.com/p/f949e24ea1ce</a></p><p>配置文件参考</p><p><a href="https://dn-epoint.qbox.me/startsvn.sh" target="_blank" rel="noopener">https://dn-epoint.qbox.me/startsvn.sh</a></p><h2 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h2><p>查看mac svn版本</p><p><img src="http://upload-images.jianshu.io/upload_images/80578-e18be1d9e3431e88.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><p>svn: E210004: Number is larger than maximum 解决方案</p><p><a href="http://www.tuicool.com/articles/A3ENfm" target="_blank" rel="noopener">http://www.tuicool.com/articles/A3ENfm</a></p><p>主要是svn版本不匹配导致的问题</p><p>svn版本降级到1.8</p><p><a href="http://blog.csdn.net/nslong/article/details/52925645" target="_blank" rel="noopener">http://blog.csdn.net/nslong/article/details/52925645</a></p><p>brew search subversion</p><p>subclipse（svn插件安装地址）<br><a href="http://subclipse.tigris.org/update_1.12.x/" target="_blank" rel="noopener">http://subclipse.tigris.org/update_1.12.x/</a></p><p><a href="http://subclipse.tigris.org/update_1.10.x/" target="_blank" rel="noopener">http://subclipse.tigris.org/update_1.10.x/</a></p><p><a href="http://subclipse.tigris.org/update_1.8.x" target="_blank" rel="noopener">http://subclipse.tigris.org/update_1.8.x</a></p><p><a href="http://subclipse.tigris.org/update_1.6.x" target="_blank" rel="noopener">http://subclipse.tigris.org/update_1.6.x</a></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-bc7cfe58b9560bed.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p><h2 id="常见错误2-无法访问日志"><a href="#常见错误2-无法访问日志" class="headerlink" title="常见错误2 无法访问日志"></a>常见错误2 无法访问日志</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-3bf401e06692a2d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="http://blog.csdn.net/q199109106q/article/details/8655204#" target="_blank" rel="noopener">http://blog.csdn.net/q199109106q/article/details/8655204#</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;1-新建一个文件夹&quot;&gt;&lt;a href=&quot;#1-新建一个文件夹&quot; class=&quot;headerlink&quot; title=&quot;1.新建一个文件夹&quot;&gt;&lt;/a&gt;1.新建一个文件夹&lt;/h2&gt;&lt;p&gt;比如在 /users/apple/下新建一个svn/mycode文件夹&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="svn" scheme="http://yoursite.com/categories/svn/"/>
-    
-    
-      <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>npm常见问题</title>
-    <link href="http://yoursite.com/2018/05/04/npm%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>http://yoursite.com/2018/05/04/npm常见问题/</id>
-    <published>2018-05-04T14:54:44.000Z</published>
-    <updated>2018-05-05T08:15:22.911Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="问题一：mac下提示无访问权限"><a href="#问题一：mac下提示无访问权限" class="headerlink" title="问题一：mac下提示无访问权限"></a>问题一：mac下提示无访问权限</h2><a id="more"></a><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-145516.jpg" alt=""></p><h4 id="修改文件夹读写权限"><a href="#修改文件夹读写权限" class="headerlink" title="修改文件夹读写权限"></a>修改文件夹读写权限</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R /usr/<span class="built_in">local</span>/lib/node_modules</span><br><span class="line"></span><br><span class="line">sudo chmod -R 777 /Users/lilin/WK/SourceTree/mygithubblog/node_modules</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题一：mac下提示无访问权限&quot;&gt;&lt;a href=&quot;#问题一：mac下提示无访问权限&quot; class=&quot;headerlink&quot; title=&quot;问题一：mac下提示无访问权限&quot;&gt;&lt;/a&gt;问题一：mac下提示无访问权限&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="npm" scheme="http://yoursite.com/categories/npm/"/>
-    
-    
-      <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AS3.0编译错误</title>
-    <link href="http://yoursite.com/2018/05/04/AS3-0%E7%BC%96%E8%AF%91%E9%94%99%E8%AF%AF/"/>
-    <id>http://yoursite.com/2018/05/04/AS3-0编译错误/</id>
-    <published>2018-05-04T11:59:13.000Z</published>
-    <updated>2018-05-05T08:15:04.020Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="BUG1：butterknife编译错误"><a href="#BUG1：butterknife编译错误" class="headerlink" title="BUG1：butterknife编译错误"></a>BUG1：butterknife编译错误</h2><a id="more"></a><h4 id="解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP"><a href="#解决方案：-https-shimo-im-docs-YwvkLxcGjSkidCxP" class="headerlink" title="解决方案： https://shimo.im/docs/YwvkLxcGjSkidCxP"></a>解决方案： <a href="https://shimo.im/docs/YwvkLxcGjSkidCxP" target="_blank" rel="noopener">https://shimo.im/docs/YwvkLxcGjSkidCxP</a></h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Error:Execution failed for task &apos;:epointresource:javaPreCompileDebug&apos;.</span><br><span class="line"></span><br><span class="line">&gt; Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.</span><br><span class="line"></span><br><span class="line">    - butterknife-6.1.0.jar (com.jakewharton:butterknife:6.1.0)</span><br><span class="line"></span><br><span class="line">  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.</span><br><span class="line"></span><br><span class="line">  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.</span><br></pre></td></tr></table></figure><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-120927.png" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">javaCompileOptions &#123;</span><br><span class="line">    annotationProcessorOptions &#123;</span><br><span class="line">        includeCompileClasspath true</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="BUG2：添加google仓库"><a href="#BUG2：添加google仓库" class="headerlink" title="BUG2：添加google仓库"></a>BUG2：添加google仓库</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-04-2017-12-14-2B81563C221D210290AD4EA44A52620A.jpg" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;BUG1：butterknife编译错误&quot;&gt;&lt;a href=&quot;#BUG1：butterknife编译错误&quot; class=&quot;headerlink&quot; title=&quot;BUG1：butterknife编译错误&quot;&gt;&lt;/a&gt;BUG1：butterknife编译错误&lt;/h2&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
-    
-    
-      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo建站攻略</title>
-    <link href="http://yoursite.com/2018/05/04/Hexo%E5%BB%BA%E7%AB%99%E6%94%BB%E7%95%A5/"/>
-    <id>http://yoursite.com/2018/05/04/Hexo建站攻略/</id>
-    <published>2018-05-04T10:12:37.000Z</published>
-    <updated>2018-05-05T11:21:26.208Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="建站备忘录"><a href="#建站备忘录" class="headerlink" title="建站备忘录"></a>建站备忘录</h2><p><a href="https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/" target="_blank" rel="noopener">https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/</a><br><a id="more"></a></p><h4 id="1-设置-站内搜索"><a href="#1-设置-站内搜索" class="headerlink" title="1.设置 站内搜索"></a>1.设置 站内搜索</h4><p><a href="https://blog.csdn.net/linshuhe1/article/details/52424573" target="_blank" rel="noopener">https://blog.csdn.net/linshuhe1/article/details/52424573</a></p><h4 id="2-关于我设置，more的使用"><a href="#2-关于我设置，more的使用" class="headerlink" title="2.关于我设置，more的使用"></a>2.关于我设置，more的使用</h4><p><a href="https://blog.csdn.net/linshuhe1/article/details/52424573" target="_blank" rel="noopener">https://blog.csdn.net/linshuhe1/article/details/52424573</a></p><h4 id="3-设置-阅读百分比，旋转头像，RSS"><a href="#3-设置-阅读百分比，旋转头像，RSS" class="headerlink" title="3.设置 阅读百分比，旋转头像，RSS"></a>3.设置 阅读百分比，旋转头像，RSS</h4><p><a href="https://www.jianshu.com/p/3ff20be8574c" target="_blank" rel="noopener">https://www.jianshu.com/p/3ff20be8574c</a></p><p>RSS</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure><p>打开Hexo 站点下的_config.yml,添加如下配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># feed</span><br><span class="line"># Dependencies: https://github.com/hexojs/hexo-generator-feed</span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 20</span><br><span class="line">  hub:</span><br><span class="line">  content:</span><br></pre></td></tr></table></figure></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-05-2018-05-05-093601.png" alt=""></p><h4 id="4-设置-版权声明"><a href="#4-设置-版权声明" class="headerlink" title="4.设置 版权声明"></a>4.设置 版权声明</h4><p>主题配置文件下,搜索关键字post_copyright,enable改为true</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-05-094701.png" alt=""></p><p>显示效果</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-05-094555.png" alt=""></p><h4 id="5-设置-文章更新时间"><a href="#5-设置-文章更新时间" class="headerlink" title="5.设置 文章更新时间"></a>5.设置 文章更新时间</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-05-101232.png" alt=""></p><h4 id="6-设置-给代码块添加复制功能"><a href="#6-设置-给代码块添加复制功能" class="headerlink" title="6.设置 给代码块添加复制功能"></a>6.设置 给代码块添加复制功能</h4><p><a href="https://www.jianshu.com/p/d23d67d318c7" target="_blank" rel="noopener">https://www.jianshu.com/p/d23d67d318c7</a></p><h4 id="7-设置-gulp-静态资源压缩"><a href="#7-设置-gulp-静态资源压缩" class="headerlink" title="7.设置 gulp 静态资源压缩"></a>7.设置 gulp 静态资源压缩</h4><p><a href="https://www.jianshu.com/p/d23d67d318c7" target="_blank" rel="noopener">https://www.jianshu.com/p/d23d67d318c7</a></p><h4 id="8-设置-百度分享功能"><a href="#8-设置-百度分享功能" class="headerlink" title="8.设置 百度分享功能"></a>8.设置 百度分享功能</h4><p><a href="https://www.cnblogs.com/lanuage/p/8215459.html" target="_blank" rel="noopener">https://www.cnblogs.com/lanuage/p/8215459.html</a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">baidushare:</span><br><span class="line">  type: button</span><br><span class="line">  baidushare: true</span><br></pre></td></tr></table></figure></p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-05-101118.png" alt=""></p><p>解决Https下无法使用的问题</p><p><a href="https://blog.csdn.net/cl534854121/article/details/76121105" target="_blank" rel="noopener">https://blog.csdn.net/cl534854121/article/details/76121105</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;建站备忘录&quot;&gt;&lt;a href=&quot;#建站备忘录&quot; class=&quot;headerlink&quot; title=&quot;建站备忘录&quot;&gt;&lt;/a&gt;建站备忘录&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.vincentqin.tech/2016/08/09/build-a-website-using-hexo/&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo next 主题</title>
-    <link href="http://yoursite.com/2018/05/04/Hexo-next-%E4%B8%BB%E9%A2%98/"/>
-    <id>http://yoursite.com/2018/05/04/Hexo-next-主题/</id>
-    <published>2018-05-04T10:02:31.000Z</published>
-    <updated>2018-05-04T16:12:59.964Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h2><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a></p><h2 id="个性化教程"><a href="#个性化教程" class="headerlink" title="个性化教程"></a>个性化教程</h2><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">https://www.jianshu.com/p/f054333ac9e6</a></p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;官网&quot;&gt;&lt;a href=&quot;#官网&quot; class=&quot;headerlink&quot; title=&quot;官网&quot;&gt;&lt;/a&gt;官网&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://theme-next.iissnan.com/getting-started.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://theme-next.iissnan.com/getting-started.html&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;个性化教程&quot;&gt;&lt;a href=&quot;#个性化教程&quot; class=&quot;headerlink&quot; title=&quot;个性化教程&quot;&gt;&lt;/a&gt;个性化教程&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/f054333ac9e6&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.jianshu.com/p/f054333ac9e6&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>打分小工具</title>
-    <link href="http://yoursite.com/2018/05/03/%E6%89%93%E5%88%86%E5%B0%8F%E5%B7%A5%E5%85%B7/"/>
-    <id>http://yoursite.com/2018/05/03/打分小工具/</id>
-    <published>2018-05-03T06:18:33.000Z</published>
-    <updated>2018-06-10T11:15:50.752Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-111456.png" alt=""></p><a id="more"></a><h3 id="使用场景"><a href="#使用场景" class="headerlink" title="使用场景"></a>使用场景</h3><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-03-062355.png" alt=""></p><h3 id="如何分享评分二维码"><a href="#如何分享评分二维码" class="headerlink" title="如何分享评分二维码"></a>如何分享评分二维码</h3><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-04-10-%E5%A6%82%E4%BD%95%E5%88%86%E4%BA%AB%E4%BA%8C%E7%BB%B4%E7%A0%81.png" alt=""></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-111456.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="微信小程序" scheme="http://yoursite.com/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    
-      <category term="工具" scheme="http://yoursite.com/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不同的公众号类型具备不同的接口权限</title>
-    <link href="http://yoursite.com/2018/05/03/%E4%B8%8D%E5%90%8C%E7%9A%84%E5%85%AC%E4%BC%97%E5%8F%B7%E7%B1%BB%E5%9E%8B%E5%85%B7%E5%A4%87%E4%B8%8D%E5%90%8C%E7%9A%84%E6%8E%A5%E5%8F%A3%E6%9D%83%E9%99%90/"/>
-    <id>http://yoursite.com/2018/05/03/不同的公众号类型具备不同的接口权限/</id>
-    <published>2018-05-03T03:03:19.000Z</published>
-    <updated>2018-05-19T12:00:58.601Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="官方说明"><a href="#官方说明" class="headerlink" title="官方说明"></a>官方说明</h4><p><a href="http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html" target="_blank" rel="noopener">http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html</a></p><a id="more"></a><h2 id="注意：认证与未认证帐号的权限也是不一样的"><a href="#注意：认证与未认证帐号的权限也是不一样的" class="headerlink" title="注意：认证与未认证帐号的权限也是不一样的"></a>注意：认证与未认证帐号的权限也是不一样的</h2><p><img src="http://upload-images.jianshu.io/upload_images/80578-670c46fca117cb65.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p><p><img src="http://upload-images.jianshu.io/upload_images/80578-2cab2a5719017ba5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h4 id=&quot;官方说明&quot;&gt;&lt;a href=&quot;#官方说明&quot; class=&quot;headerlink&quot; title=&quot;官方说明&quot;&gt;&lt;/a&gt;官方说明&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://mp.weixin.qq.com/wiki/13/8d4957b72037e3308a0ca1b21f25ae8d.html&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="开发微信" scheme="http://yoursite.com/categories/%E5%BC%80%E5%8F%91%E5%BE%AE%E4%BF%A1/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>如何安装maupassant主题</title>
-    <link href="http://yoursite.com/2018/05/03/%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85maupassant%E4%B8%BB%E9%A2%98/"/>
-    <id>http://yoursite.com/2018/05/03/如何安装maupassant主题/</id>
-    <published>2018-05-03T03:03:19.000Z</published>
-    <updated>2018-05-04T16:13:45.318Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>cd到博客文件所在目录，在终端执行以下命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line">$ npm install hexo-renderer-pug --save</span><br><span class="line">$ npm install hexo-renderer-sass --save</span><br></pre></td></tr></table></figure><a id="more"></a><p>安装成功后</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-03-030602.png" alt=""></p><p>编辑Hexo目录下的 _config.yml，将theme的值改为maupassant。</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-03-030656.png" alt=""></p><p>语言设置</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-03-032746.png" alt=""></p><p>最终效果</p><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-05-03-030925.png" alt=""></p><h4 id="参考博文"><a href="#参考博文" class="headerlink" title="参考博文"></a>参考博文</h4><p><a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="noopener">https://www.haomwei.com/technology/maupassant-hexo.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;安装主题&quot;&gt;&lt;a href=&quot;#安装主题&quot; class=&quot;headerlink&quot; title=&quot;安装主题&quot;&gt;&lt;/a&gt;安装主题&lt;/h2&gt;&lt;p&gt;cd到博客文件所在目录，在终端执行以下命令&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/tufu9441/maupassant-hexo.git themes/maupassant&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-pug --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-renderer-sass --save&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo主题</title>
-    <link href="http://yoursite.com/2018/05/03/Hexo%E4%B8%BB%E9%A2%98/"/>
-    <id>http://yoursite.com/2018/05/03/Hexo主题/</id>
-    <published>2018-05-03T02:11:19.000Z</published>
-    <updated>2018-05-04T16:13:02.697Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Hexo简洁主题推荐"><a href="#Hexo简洁主题推荐" class="headerlink" title="Hexo简洁主题推荐"></a>Hexo简洁主题推荐</h1><p><a href="https://www.haomwei.com/technology/maupassant-hexo.html" target="_blank" rel="noopener">https://www.haomwei.com/technology/maupassant-hexo.html</a></p><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;Hexo简洁主题推荐&quot;&gt;&lt;a href=&quot;#Hexo简洁主题推荐&quot; class=&quot;headerlink&quot; title=&quot;Hexo简洁主题推荐&quot;&gt;&lt;/a&gt;Hexo简洁主题推荐&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.haomwei.com/technology/maupassant-hexo.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.haomwei.com/technology/maupassant-hexo.html&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   

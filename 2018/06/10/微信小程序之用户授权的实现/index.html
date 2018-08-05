@@ -87,26 +87,29 @@
 
 
 
-<meta name="description" content="微信小程序之用户授权一.为什么要进行用户授权获取用户的openid，昵称，头像等信息 授权提示框  如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）">
+<meta name="description" content="获取用户openid，昵称，头像等">
 <meta name="keywords" content="用户授权">
 <meta property="og:type" content="article">
 <meta property="og:title" content="微信小程序之用户授权的实现">
 <meta property="og:url" content="http://yoursite.com/2018/06/10/微信小程序之用户授权的实现/index.html">
 <meta property="og:site_name" content="专注移动开发">
-<meta property="og:description" content="微信小程序之用户授权一.为什么要进行用户授权获取用户的openid，昵称，头像等信息 授权提示框  如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）">
+<meta property="og:description" content="获取用户openid，昵称，头像等">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-015052.png">
+<meta property="og:image" content="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-014920.png">
+<meta property="og:image" content="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-021237.jpg">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png">
-<meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101532.png">
+<meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png">
-<meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103514.png">
+<meta property="og:image" content="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-2018-07-20-QQ20180720-111434-HD.gif">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png">
 <meta property="og:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-QQ20180610-202416-HD.gif">
-<meta property="og:updated_time" content="2018-06-10T12:25:36.197Z">
+<meta property="og:updated_time" content="2018-08-05T03:17:05.363Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="微信小程序之用户授权的实现">
-<meta name="twitter:description" content="微信小程序之用户授权一.为什么要进行用户授权获取用户的openid，昵称，头像等信息 授权提示框  如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）">
-<meta name="twitter:image" content="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png">
+<meta name="twitter:description" content="获取用户openid，昵称，头像等">
+<meta name="twitter:image" content="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-015052.png">
 
 
 
@@ -371,8 +374,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-06-10T20:25:36+08:00">
-                2018-06-10
+              <time title="更新于" itemprop="dateModified" datetime="2018-08-05T11:17:05+08:00">
+                2018-08-05
               </time>
             
           </span>
@@ -448,7 +451,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  786
+                  806
                 </span>
               
 
@@ -485,40 +488,38 @@
       
 
       
-        <h1 id="微信小程序之用户授权"><a href="#微信小程序之用户授权" class="headerlink" title="微信小程序之用户授权"></a>微信小程序之用户授权</h1><h2 id="一-为什么要进行用户授权"><a href="#一-为什么要进行用户授权" class="headerlink" title="一.为什么要进行用户授权"></a>一.为什么要进行用户授权</h2><p>获取用户的openid，昵称，头像等信息</p>
-<p>授权提示框</p>
-<p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png" alt=""></p>
-<p>如果只是获取用户的openid是不需要用户允许的（即不需要弹出授权对话框）</p>
-<a id="more"></a>
-<h2 id="二-相关API及组件说明"><a href="#二-相关API及组件说明" class="headerlink" title="二.相关API及组件说明"></a>二.相关API及组件说明</h2><h4 id="1-相关API"><a href="#1-相关API" class="headerlink" title="1.相关API"></a>1.相关API</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/</a></p>
+        <h4 id="获取用户openid，昵称，头像等"><a href="#获取用户openid，昵称，头像等" class="headerlink" title="获取用户openid，昵称，头像等"></a>获取用户openid，昵称，头像等</h4><a id="more"></a>
+<h1 id="一-如何获取用户openid"><a href="#一-如何获取用户openid" class="headerlink" title="一.如何获取用户openid"></a>一.如何获取用户openid</h1><h4 id="注意：1-获取用户openid是不需要用户授权同意的"><a href="#注意：1-获取用户openid是不需要用户授权同意的" class="headerlink" title="注意：1.获取用户openid是不需要用户授权同意的"></a><span data-type="color" style="color:#F5222D">注意：1.获取用户openid是不需要用户授权同意的</span></h4><h4 id="注意：2-需要提供登录授权接口，返回openid-（具体请阅读官方接口开发说明）"><a href="#注意：2-需要提供登录授权接口，返回openid-（具体请阅读官方接口开发说明）" class="headerlink" title="注意：2.需要提供登录授权接口，返回openid （具体请阅读官方接口开发说明）"></a><span data-type="color" style="color:#F5222D">注意：2.需要提供登录授权接口，返回openid </span><span data-type="color" style="color:#262626">（具体请阅读官方</span><a href="https://developers.weixin.qq.com/miniprogram/dev/api/api-login.html#wxloginobject" target="_blank" rel="noopener">接口开发说明</a><span data-type="color" style="color:#262626">）</span></h4><h4 id="直接通过wx-login-获取临时code，然后调用后台接口，获取openid"><a href="#直接通过wx-login-获取临时code，然后调用后台接口，获取openid" class="headerlink" title="直接通过wx.login()获取临时code，然后调用后台接口，获取openid"></a>直接通过wx.login()获取临时code，然后调用后台接口，获取openid</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-015052.png" alt="image | left"></p>
+<h4 id="借助postman工具，我们可以模拟下后台接口请求，获取openid"><a href="#借助postman工具，我们可以模拟下后台接口请求，获取openid" class="headerlink" title="借助postman工具，我们可以模拟下后台接口请求，获取openid"></a>借助postman工具，我们可以模拟下后台接口请求，获取openid</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-014920.png" alt="image | center"></p>
+<h4 id="接口文档分析"><a href="#接口文档分析" class="headerlink" title="接口文档分析"></a>接口文档分析</h4><p><img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-021237.jpg" alt="image | left"></p>
+<h1 id="二-如何获取用户基本信息（昵称，头像等）"><a href="#二-如何获取用户基本信息（昵称，头像等）" class="headerlink" title="二.如何获取用户基本信息（昵称，头像等）"></a>二.如何获取用户基本信息（昵称，头像等）</h1><h4 id="注意：必须用户授权同意"><a href="#注意：必须用户授权同意" class="headerlink" title="注意：必须用户授权同意"></a><span data-type="color" style="color:#F5222D">注意：必须用户授权同意</span></h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-094914.png" alt="image | center"></p>
+<h2 id="1-相关API"><a href="#1-相关API" class="headerlink" title="1.相关API"></a>1.相关API</h2><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/</a></p>
 <table>
 <thead>
 <tr>
-<th>方法名</th>
-<th>说明</th>
+<th style="text-align:left">方法名</th>
+<th style="text-align:left">说明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>wx.login()</td>
-<td>获取临时登录凭证code</td>
+<td style="text-align:left">wx.getUserInfo()</td>
+<td style="text-align:left">当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息</td>
 </tr>
 <tr>
-<td>wx.getUserInfo()</td>
-<td>当用户未授权过，调用该接口将直接报错；当用户授权过，可以使用该接口获取用户信息</td>
+<td style="text-align:left">wx.getSetting()</td>
+<td style="text-align:left">获取用户的当前设置（只会出现小程序已经向用户请求过的权限）</td>
 </tr>
 <tr>
-<td>wx.getSetting()</td>
-<td>获取用户的当前设置（只会出现小程序已经向用户请求过的权限）</td>
-</tr>
-<tr>
-<td>wx.openSetting()</td>
-<td>打开授权设置页面（只会出现小程序已经向用户请求过的权限）</td>
+<td style="text-align:left">wx.openSetting()</td>
+<td style="text-align:left">打开授权设置页面（只会出现小程序已经向用户请求过的权限）</td>
 </tr>
 </tbody>
 </table>
-<p>注：wx.openSetting()即将废弃</p>
-<h4 id="2-相关组件"><a href="#2-相关组件" class="headerlink" title="2.相关组件"></a>2.相关组件</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png" alt=""></p>
+<p><span data-type="color" style="color:#F5222D">注：wx.openSetting()即将废弃</span></p>
+<p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101532.png" alt="image | center"></p>
+<p>由于API升级，wx.getUserInfo不在弹出用户授权确认对话框（目前线上版本不受影响，开发版，演示版不支持）</p>
+<h2 id="2-相关组件"><a href="#2-相关组件" class="headerlink" title="2.相关组件"></a>2.相关组件</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101405.png" alt="image | left"></p>
 <p>用户授权按钮 open-type=’getUserInfo’</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;getUserInfo&apos; bindgetuserinfo=&quot;userInfoHandler&quot; type=&quot;default&quot;&gt;</span><br><span class="line">        用户授权</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure>
 <p>列表样式</p>
@@ -527,14 +528,12 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;button class=&quot;index-books__controls--create&quot; open-type=&apos;openSetting&apos; type=&quot;default&quot;&gt;</span><br><span class="line">        授权设置</span><br><span class="line">      &lt;/button&gt;</span><br></pre></td></tr></table></figure>
 <p>列表样式</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;view class=&quot;weui-cell weui-cell_access&quot; hover-class=&quot;weui-cell_active&quot;&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__hd&quot;&gt;</span><br><span class="line">                &lt;image src=&quot;/img/accout_set.png&quot; style=&quot;width: 25px;height: 25px;margin-right: 5px;margin-top: 5px;&quot; /&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__bd weui-cell_primary&quot;&gt;</span><br><span class="line">                &lt;view&gt;授权设置&lt;/view&gt;</span><br><span class="line">              &lt;/view&gt;</span><br><span class="line">              &lt;view class=&quot;weui-cell__ft weui-cell__ft_in-access&quot;&gt;&lt;/view&gt;</span><br><span class="line">              &lt;button class=&apos;share-btn&apos; open-type=&apos;openSetting&apos;&gt;a&lt;/button&gt;</span><br><span class="line">            &lt;/view&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="三-如何去获取昵称头像呢？"><a href="#三-如何去获取昵称头像呢？" class="headerlink" title="三.如何去获取昵称头像呢？"></a>三.如何去获取昵称头像呢？</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-101532.png" alt=""></p>
-<p>由于API升级，wx.getUserInfo不在弹出用户授权确认对话框（目前线上版本不受影响，开发版，演示版不支持）</p>
-<p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png" alt=""></p>
-<h4 id="第一步：首页先通过wx-login获取openid，根据openid判断是否是新用户"><a href="#第一步：首页先通过wx-login获取openid，根据openid判断是否是新用户" class="headerlink" title="第一步：首页先通过wx.login获取openid，根据openid判断是否是新用户"></a>第一步：首页先通过wx.login获取openid，根据openid判断是否是新用户</h4><h4 id="第二步：首页放置用户授权按钮，告知用户授权的目的。"><a href="#第二步：首页放置用户授权按钮，告知用户授权的目的。" class="headerlink" title="第二步：首页放置用户授权按钮，告知用户授权的目的。"></a>第二步：首页放置用户授权按钮，告知用户授权的目的。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103514.png" alt=""></p>
-<p>如果用户拒绝，就不允许下一步的操作，必须授权同意才可以使用。</p>
-<h2 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h2><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt=""></p>
+<h2 id="3-参考流程"><a href="#3-参考流程" class="headerlink" title="3.参考流程"></a>3.参考流程</h2><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-102936.png" alt="image | center"></p>
+<h4 id="第一步：首页先通过wx-login获取code，根据临时code获取openid，根据openid判断是否是新用户"><a href="#第一步：首页先通过wx-login获取code，根据临时code获取openid，根据openid判断是否是新用户" class="headerlink" title="第一步：首页先通过wx.login获取code，根据临时code获取openid，根据openid判断是否是新用户"></a>第一步：首页先通过wx.login获取code，根据临时code获取openid，根据openid判断是否是新用户</h4><h4 id="第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）"><a href="#第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）" class="headerlink" title="第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）"></a>第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）</h4><h4 id="第三步：通过wx-getUserInfo-获取用户头像，昵称等基本信息"><a href="#第三步：通过wx-getUserInfo-获取用户头像，昵称等基本信息" class="headerlink" title="第三步：通过wx.getUserInfo()获取用户头像，昵称等基本信息"></a>第三步：通过wx.getUserInfo()获取用户头像，昵称等基本信息</h4><h4 id="实现方案参考"><a href="#实现方案参考" class="headerlink" title="实现方案参考"></a>实现方案参考</h4><div data-type="alignment" data-value="center" style="text-align:center"><br>  <div data-type="p"><br>    <div data-type="image" data-display="block" data-align="center" data-src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-2018-07-20-QQ20180720-111434-HD.gif" data-width=""><br>      <img src="http://od7nv5gvk.bkt.clouddn.com/2018-08-03-2018-07-20-QQ20180720-111434-HD.gif" width=""><br>    </div><br>  </div><br></div>
+
+
+<h1 id="四-建议"><a href="#四-建议" class="headerlink" title="四.建议"></a>四.建议</h1><h4 id="1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><a href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。" class="headerlink" title="1.定期使用 wx.getUserInfo 获取并更新用户的信息。"></a>1.定期使用 wx.getUserInfo 获取并更新用户的信息。</h4><h4 id="2-通过微信授权设置页面，可以关闭用户授权。"><a href="#2-通过微信授权设置页面，可以关闭用户授权。" class="headerlink" title="2.通过微信授权设置页面，可以关闭用户授权。"></a>2.通过微信授权设置页面，可以关闭用户授权。</h4><p><img src="http://mynote6026.oss-cn-shanghai.aliyuncs.com/2018-06-10-103843.png" alt="image | left"></p>
 <h4 id="3-通过wx-getSetting查询当前已授权的设置。"><a href="#3-通过wx-getSetting查询当前已授权的设置。" class="headerlink" title="3.通过wx.getSetting查询当前已授权的设置。"></a>3.通过wx.getSetting查询当前已授权的设置。</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/api/setting.html#wxopensettingobject</a></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">wx.getSetting(&#123;</span><br><span class="line">  success: (res) =&gt; &#123;</span><br><span class="line">    if (res.authSetting[&quot;scope.userInfo&quot;]) &#123;</span><br><span class="line">      console.log(&quot;用户同意授权!&quot;);</span><br><span class="line"></span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      console.log(&quot;用户拒绝授权!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 <h2 id="五-注意"><a href="#五-注意" class="headerlink" title="五.注意"></a>五.注意</h2><h4 id="1-wx-authorize"><a href="#1-wx-authorize" class="headerlink" title="1.wx.authorize"></a>1.wx.authorize</h4><p>注意：scope 为 “scope.userInfo” 时，无法弹出授权窗口，请使用 button open-type=”getUserInfo”</p>
 <h4 id="2-如果只是显示头像和昵称，可以使用open-data组件"><a href="#2-如果只是显示头像和昵称，可以使用open-data组件" class="headerlink" title="2.如果只是显示头像和昵称，可以使用open-data组件"></a>2.如果只是显示头像和昵称，可以使用open-data组件</h4><p><a href="https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html" target="_blank" rel="noopener">https://developers.weixin.qq.com/miniprogram/dev/component/open-data.html</a></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;open-data type=&quot;userAvatarUrl&quot;&gt;&lt;/open-data&gt;</span><br><span class="line">&lt;open-data type=&quot;userGender&quot; lang=&quot;zh_CN&quot;&gt;&lt;/open-data&gt;</span><br></pre></td></tr></table></figure>
@@ -650,6 +649,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/06/12/AS编译错误解决办法/" rel="prev" title="AS编译错误解决办法">
+                AS编译错误解决办法 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -773,7 +776,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-count">41</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -784,7 +787,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">15</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -795,7 +798,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -881,7 +884,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#微信小程序之用户授权"><span class="nav-number">1.</span> <span class="nav-text">微信小程序之用户授权</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一-为什么要进行用户授权"><span class="nav-number">1.1.</span> <span class="nav-text">一.为什么要进行用户授权</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二-相关API及组件说明"><span class="nav-number">1.2.</span> <span class="nav-text">二.相关API及组件说明</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-相关API"><span class="nav-number">1.2.0.1.</span> <span class="nav-text">1.相关API</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-相关组件"><span class="nav-number">1.2.0.2.</span> <span class="nav-text">2.相关组件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三-如何去获取昵称头像呢？"><span class="nav-number">1.3.</span> <span class="nav-text">三.如何去获取昵称头像呢？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#第一步：首页先通过wx-login获取openid，根据openid判断是否是新用户"><span class="nav-number">1.3.0.1.</span> <span class="nav-text">第一步：首页先通过wx.login获取openid，根据openid判断是否是新用户</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第二步：首页放置用户授权按钮，告知用户授权的目的。"><span class="nav-number">1.3.0.2.</span> <span class="nav-text">第二步：首页放置用户授权按钮，告知用户授权的目的。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四-建议"><span class="nav-number">1.4.</span> <span class="nav-text">四.建议</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><span class="nav-number">1.4.0.1.</span> <span class="nav-text">1.定期使用 wx.getUserInfo 获取并更新用户的信息。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-通过微信授权设置页面，可以关闭用户授权。"><span class="nav-number">1.4.0.2.</span> <span class="nav-text">2.通过微信授权设置页面，可以关闭用户授权。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-通过wx-getSetting查询当前已授权的设置。"><span class="nav-number">1.4.0.3.</span> <span class="nav-text">3.通过wx.getSetting查询当前已授权的设置。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五-注意"><span class="nav-number">1.5.</span> <span class="nav-text">五.注意</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-wx-authorize"><span class="nav-number">1.5.0.1.</span> <span class="nav-text">1.wx.authorize</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-如果只是显示头像和昵称，可以使用open-data组件"><span class="nav-number">1.5.0.2.</span> <span class="nav-text">2.如果只是显示头像和昵称，可以使用open-data组件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考源码"><span class="nav-number">1.6.</span> <span class="nav-text">参考源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考文章"><span class="nav-number">1.7.</span> <span class="nav-text">参考文章</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#获取用户openid，昵称，头像等"><span class="nav-number">1.</span> <span class="nav-text">获取用户openid，昵称，头像等</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#一-如何获取用户openid"><span class="nav-number"></span> <span class="nav-text">一.如何获取用户openid</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注意：1-获取用户openid是不需要用户授权同意的"><span class="nav-number">1.</span> <span class="nav-text">注意：1.获取用户openid是不需要用户授权同意的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意：2-需要提供登录授权接口，返回openid-（具体请阅读官方接口开发说明）"><span class="nav-number">2.</span> <span class="nav-text">注意：2.需要提供登录授权接口，返回openid （具体请阅读官方接口开发说明）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#直接通过wx-login-获取临时code，然后调用后台接口，获取openid"><span class="nav-number">3.</span> <span class="nav-text">直接通过wx.login()获取临时code，然后调用后台接口，获取openid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#借助postman工具，我们可以模拟下后台接口请求，获取openid"><span class="nav-number">4.</span> <span class="nav-text">借助postman工具，我们可以模拟下后台接口请求，获取openid</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#接口文档分析"><span class="nav-number">5.</span> <span class="nav-text">接口文档分析</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二-如何获取用户基本信息（昵称，头像等）"><span class="nav-number"></span> <span class="nav-text">二.如何获取用户基本信息（昵称，头像等）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#注意：必须用户授权同意"><span class="nav-number">1.</span> <span class="nav-text">注意：必须用户授权同意</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-相关API"><span class="nav-number"></span> <span class="nav-text">1.相关API</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-相关组件"><span class="nav-number"></span> <span class="nav-text">2.相关组件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-参考流程"><span class="nav-number"></span> <span class="nav-text">3.参考流程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#第一步：首页先通过wx-login获取code，根据临时code获取openid，根据openid判断是否是新用户"><span class="nav-number">1.</span> <span class="nav-text">第一步：首页先通过wx.login获取code，根据临时code获取openid，根据openid判断是否是新用户</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）"><span class="nav-number">2.</span> <span class="nav-text">第二步：用户授权同意（如果拒绝，打开权限设置界面，重新授权）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#第三步：通过wx-getUserInfo-获取用户头像，昵称等基本信息"><span class="nav-number">3.</span> <span class="nav-text">第三步：通过wx.getUserInfo()获取用户头像，昵称等基本信息</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#实现方案参考"><span class="nav-number">4.</span> <span class="nav-text">实现方案参考</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#四-建议"><span class="nav-number"></span> <span class="nav-text">四.建议</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-定期使用-wx-getUserInfo-获取并更新用户的信息。"><span class="nav-number">1.</span> <span class="nav-text">1.定期使用 wx.getUserInfo 获取并更新用户的信息。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-通过微信授权设置页面，可以关闭用户授权。"><span class="nav-number">2.</span> <span class="nav-text">2.通过微信授权设置页面，可以关闭用户授权。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-通过wx-getSetting查询当前已授权的设置。"><span class="nav-number">3.</span> <span class="nav-text">3.通过wx.getSetting查询当前已授权的设置。</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#五-注意"><span class="nav-number"></span> <span class="nav-text">五.注意</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-wx-authorize"><span class="nav-number">1.</span> <span class="nav-text">1.wx.authorize</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-如果只是显示头像和昵称，可以使用open-data组件"><span class="nav-number">2.</span> <span class="nav-text">2.如果只是显示头像和昵称，可以使用open-data组件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考源码"><span class="nav-number"></span> <span class="nav-text">参考源码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考文章"><span class="nav-number"></span> <span class="nav-text">参考文章</span></a></div>
             
 
           </div>
@@ -916,7 +919,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">7.0k</span>
+    <span title="Site words total count">9.1k</span>
   
 </div>
 
@@ -941,7 +944,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共7.0k字</span>
+  <span class="post-count">博客全站共9.1k字</span>
 </div>
 
         
